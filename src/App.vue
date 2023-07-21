@@ -109,7 +109,7 @@ header
     height 10vw
     background-size contain
     background-repeat no-repeat
-    background-posision center center
+    background-position center center
     background-color trasparent
     background-clip content-box
 
