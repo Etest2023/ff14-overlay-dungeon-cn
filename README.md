@@ -28,7 +28,7 @@ FF14 ngld 悬浮窗
 
 - 帮助收集完善提示信息，在作品发布渠道反馈
   - [github](https://github.com/Etest2023/ff14-overlay-dungeon-cn/issues)
-  - [NGA]()
+  - [NGA](https://nga.178.com/read.php?tid=37084135)
 - 为我充值任意国服游戏时间，用以开发测试、完善功能
   - 充值账号：`Kaishirr1`
   - 游戏区服：`陆行鸟`
