@@ -25,17 +25,20 @@ export default function init({
         // console.log(logs)
         logs.forEach(str=>{
             if(!str) return
+
             const regx = /^.{14} (?<type>[\w]+) (?<info>.+)/
             const {groups} = str.match(regx) ?? {}
             const {type, info} = groups ?? {}
+
             if(['AddCombatant'].includes(type)){
-                const regx = /^03:(?<targetId>\w+):(?<targetName>[^:]+):.{5}:0000:.{3}:(?<typeId>\w+):/
+                const regx = /^03:(?<targetId>\w+):(?<targetName>[^:]+):\w+:\w+:0000:.{3}:(?<typeId>\w+):/
                 const matches = info.match(regx) ?? {}
                 if(!matches) return
 
                 const {typeId, targetId} = matches.groups || {}
-                enemyStore[targetId] = typeId
+                enemyStore[targetId] = typeId || -1
             }
+
             if(type === '261'){
                 //切换目标
                 const regx = /^105:Change:(?<personId>\w+):TargetID:(?<targetId>\w+):/
@@ -45,12 +48,18 @@ export default function init({
                     const typeId = enemyStore[targetId]
                     onLogEvent('Change', typeId)
                 }
-
-                //目标死亡
-                const regx2 = /^105:Change:(?<targetId>[^:]+).*?:CurrentMP:0/
-                const {groups: {targetId: id}} = info.match(regx2) ?? {groups: {}}
-                if(id && enemyStore[id]) onLogEvent('Death')
             }
+
+            //目标死亡，HP归零法
+            if(type === 'EffectResult'){
+                const regx = /^25:(?<targetId>\w+):(?<targetName>[^:]+):[^:]+:0:/
+                const {groups} = info.match(regx) ?? {}
+                const {targetId} = groups || {}
+                if(targetId && enemyStore[targetId]) {
+                    onLogEvent('Death')
+                }
+            }
+            
             if(type === 'ChatLog'){
                 const regx = /^00:.{6}成功进行了传送！/
                 if(regx.test(info)) ChangeZone()
@@ -59,7 +68,7 @@ export default function init({
     });
     addOverlayListener("ChangeZone", zone=>{
         enemyStore = {}
-        console.log(zone)
+        console.log(zone.zoneID, zone)
         ChangeZone(zone.zoneID)
     });
     startOverlayEvents()

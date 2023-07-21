@@ -41,7 +41,7 @@ export default {
     12107: {
         Name: '正统塔纳托斯',
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '听觉',
         Weakness: {
             Stun: true,
             Slow: true,
@@ -145,67 +145,100 @@ export default {
         },
     },
     12119: {
-        Name: 'Orthohunter',
+        Name: "正统猎手",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Slow: true,
+            Heavy: false,
+            Bind: false,
+        },
     },
     12120: {
-        Name: 'Orthosystem β',
+        Name: "正统系统β",
         Threat: '简单',
-        Aggro: 'Undefined',
-        Weakness: {},
+        Aggro: '范围',
+        Weakness: {
+            Heavy: true,
+        },
     },
     12121: {
-        Name: 'Orthos microsystem',
+        Name: "正统微型系统",
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '范围',
         Weakness: {},
     },
     12122: {
-        Name: 'Orthosoldier',
+        Name: "正统士兵",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12123: {
-        Name: 'Orthos Wood Golem',
+        Name: "正统树木巨像",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12124: {
-        Name: 'Orthos Groundskeeper',
+        Name: "正统坐镇巨像",
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12125: {
+        Name: "正统王冠",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12126: {
-        Name: 'Orthos Rafflesia',
+        Name: "正统大王花",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Slow: true,
+            Heavy: true,
+            Bind: true,
+        },
+    },
+    12127: {
+        Name: "正统锯齿花",
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {
+            Slow: true,
+            Heavy: false,
+            Bind: false,
+        },
     },
     12128: {
-        Name: 'Orthos netzach',
+        Name: "正统胜利",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Slow: true,
+            Heavy: true,
+            Bind: true,
+        },
     },
     12129: {
-        Name: 'Orthos spirulina',
+        Name: "正统螺旋藻",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Slow: true,
+            Heavy: true,
+        },
     },
     12130: {
-        Name: 'great Orthos morbol',
+        Name: "正统大魔界花",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12131: {
-        Name: 'Orthos Belladonna',
+        Name: "正统剧毒美人",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
@@ -426,7 +459,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '1) 平A重击，附加"加重"效果； 2) 点名加重玩家释放可见圆形AOE，扣血到1; 不吃晕',
+        tip: '1) 平A重击，附加"加重"效果； 2) 点名加重玩家释放可见圆形AOE，扣血到1',
     },
     12162: {
         Name: '正统凯尔派',
@@ -444,7 +477,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '未进战时读条释放几乎不可见大范围AOE，命中附加易伤debuff;平A单体重攻击',
+        tip: '未进战时读条释放几乎不可见大范围AOE，命中附加易伤debuff；平A单体重攻击',
     },
     12164: {
         Name: '正统霍尔猎犬',
@@ -463,8 +496,10 @@ export default {
         Name: '正统阿刻戎',
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
-        tip: '释放不可见全屏秒杀AOE,可插言打断或隔墙躲避;释放正面可见扇形AOE;不吃晕',
+        Weakness: {
+            Stun: false,
+        },
+        tip: '读条释放不可见全屏秒杀AOE，可插言打断或隔墙躲避；释放正面可见扇形AOE',
     },
     12167: {
         Name: '正统阿巴伊',
@@ -479,7 +514,7 @@ export default {
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
-        tip: '正面无读条不可见吸引,然后快速读条释放正面不可见扇形AOE;不吃晕',
+        tip: '正面无读条吸引，然后释放正面不可见扇形AOE',
     },
     12169: {
         Name: '正统赫德提特',
@@ -488,7 +523,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '每隔一段时间对玩家附加减速效果,最高16层;点名一名玩家释放前方可见长直线AOE;吃晕',
+        tip: '每隔一段时间对玩家附加减速效果；点名一名玩家释放前方可见长直线AOE',
     },
     12170: {
         Name: '正统土泥人',
@@ -497,7 +532,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '释放无读条不可见钢铁AOE,伤害不高但会附加加重debuff;吃晕',
+        tip: '释放无读条不可见钢铁AOE，伤害不高但会附加加重debuff',
     },
     12171: {
         Name: '正统班西',
@@ -590,7 +625,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '冰刺攻击,被物理攻击击中则秒杀',
+        tip: '冰盾Buff，被物理攻击击中则秒杀',
     },
     12197: {
         Name: '正统巨嘴鸟',
@@ -599,7 +634,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '释放正面几乎不可见小扇形AOE,附加减速debuff;吃晕',
+        tip: '释放正面小扇形AOE，附加减速debuff',
     },
     12198: {
         Name: '正统斯卡尼特',
@@ -617,7 +652,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '对一仇三连冲锋,注意减伤;点名一名玩家释放可见圆形AOE;吃晕',
+        tip: '对一仇三连冲锋,注意减伤；点名一名玩家释放可见圆形AOE',
     },
     12201: {
         Name: '正统凶狼',
@@ -634,7 +669,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '1) 杀戮之爪 - 双重前置顺劈第二下无读条; 2) 注意眩晕或减速,敌人可以储存第二下攻击',
+        tip: '双重顺劈第二下无读条',
     },
     12203: {
         Name: '正统大脚巨猿',
@@ -643,7 +678,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '胸口捶击 - 无仇恨时读条释放超大AOE',
+        tip: '无仇恨时读条释放超大AOE',
     },
     12205: {
         Name: '正统女忍',
@@ -867,6 +902,12 @@ export default {
         Aggro: 'Boss',
         Weakness: {},
         tip: '1) 半场顺劈，正面安全; 2) 在BOSS下方和外环生成即死区域',
+    },
+    12261: {
+        Name: "复制系统",
+        Threat: '小心',
+        Aggro: 'Boss',
+        Weakness: {},
     },
     12263: {
         Name: '双塔尼亚复制',
