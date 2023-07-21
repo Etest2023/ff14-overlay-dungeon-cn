@@ -55,6 +55,7 @@ export default {
             Stun: true,
             Heavy: true,
             Slow: true,
+            Sleep: true,
         },
     },
     12109: {
@@ -90,6 +91,7 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
+            Sleep: true,
         },
     },
     12113: {
@@ -134,6 +136,8 @@ export default {
             Stun: true,
             Heavy: true,
             Slow: true,
+            Sleep: false,
+            Bind: false,
         },
     },
     12118: {
@@ -145,7 +149,7 @@ export default {
         },
     },
     12119: {
-        Name: "正统猎手",
+        Name: '正统猎手',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -155,7 +159,7 @@ export default {
         },
     },
     12120: {
-        Name: "正统系统β",
+        Name: '正统系统β',
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -163,37 +167,37 @@ export default {
         },
     },
     12121: {
-        Name: "正统微型系统",
+        Name: '正统微型系统',
         Threat: '简单',
         Aggro: '范围',
         Weakness: {},
     },
     12122: {
-        Name: "正统士兵",
+        Name: '正统士兵',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12123: {
-        Name: "正统树木巨像",
+        Name: '正统树木巨像',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12124: {
-        Name: "正统坐镇巨像",
+        Name: '正统坐镇巨像',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12125: {
-        Name: "正统王冠",
+        Name: '正统王冠',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12126: {
-        Name: "正统大王花",
+        Name: '正统大王花',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -203,7 +207,7 @@ export default {
         },
     },
     12127: {
-        Name: "正统锯齿花",
+        Name: '正统锯齿花',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -213,7 +217,7 @@ export default {
         },
     },
     12128: {
-        Name: "正统胜利",
+        Name: '正统胜利',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -223,7 +227,7 @@ export default {
         },
     },
     12129: {
-        Name: "正统螺旋藻",
+        Name: '正统螺旋藻',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -232,13 +236,13 @@ export default {
         },
     },
     12130: {
-        Name: "正统大魔界花",
+        Name: '正统大魔界花',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12131: {
-        Name: "正统剧毒美人",
+        Name: '正统剧毒美人',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
@@ -247,21 +251,27 @@ export default {
         Name: '正统破坏者',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '血量30%以下回读条大范围AOE雾散爆发，可隔墙躲避',
     },
     12133: {
         Name: '正统骑士',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '释放大范围吸引，防击退有效，随后释放不可见钢铁AOE',
     },
     12134: {
         Name: '正统机甲',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12135: {
         Name: '正统铁巨人',
@@ -273,25 +283,32 @@ export default {
         Name: '正统卡利亚',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12137: {
         Name: '正统雷蛟',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12138: {
         Name: '正统小龙',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12139: {
         Name: '正统双足飞龙',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
+            Stun: true,
             Heavy: true,
             Slow: true,
         },
@@ -316,11 +333,13 @@ export default {
         Name: '正统布罗宾雅克',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12143: {
         Name: '正统婆那罗',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
     },
@@ -328,13 +347,17 @@ export default {
         Name: '正统龟甲龙',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12145: {
         Name: '正统故障虫',
         Threat: '简单',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12146: {
         Name: '正统蜘蛛',
@@ -347,16 +370,21 @@ export default {
     },
     12147: {
         Name: '正统铁血战士',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
-        tip: '赋予自己一分钟的加速buff，加重攻击高频率出现，同时不影响平A',
+        Weakness: {
+            Stun: false,
+            Slow: true,
+        },
+        tip: '赋予自己一分钟的加速buff',
     },
     12148: {
         Name: '正统幻影光',
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         tip: '随机面向一名玩家释放正面超大范围AOE；释放钢铁AOE；平A单体重攻击',
     },
     12149: {
@@ -372,14 +400,18 @@ export default {
         Name: '正统弥诺陶洛斯',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '释放不可见钢铁AOE；释放正面扇形AOE；不吃战技封印',
     },
     12151: {
         Name: '正统爬虫半人马',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12152: {
         Name: '正统奇美拉',
@@ -392,7 +424,9 @@ export default {
         Name: '正统沙布提',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12154: {
         Name: '正统改造鸟人',
@@ -439,6 +473,7 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Slow: true,
         },
         tip: '赋予自己一分钟的加速buff，加重攻击高频率出现，同时不影响平A；不吃晕',
     },
@@ -477,14 +512,16 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '未进战时读条释放几乎不可见大范围AOE，命中附加易伤debuff；平A单体重攻击',
+        tip: '无仇恨读条释放大范围AOE，命中附加易伤debuff；平A单体重攻击',
     },
     12164: {
         Name: '正统霍尔猎犬',
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
-        tip: '释放不可见全屏AOE,只可隔墙躲避,命中后附加眩晕debuff,随机扑向并秒杀眩晕玩家',
+        Weakness: {
+            Stun: false,
+        },
+        tip: '释放不可见全屏AOE，只可隔墙躲避，命中后附加眩晕debuff，随机扑向并秒杀眩晕玩家',
     },
     12165: {
         Name: '正统胡瓦西',
@@ -538,18 +575,22 @@ export default {
         Name: '正统班西',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {}
+        Weakness: {
+            Stun: true,
+        },
     },
     12172: {
         Name: '正统鬼鱼',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '吸引后释放点名AOE',
     },
     12173: {
         Name: '正统刺魟',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
@@ -560,7 +601,9 @@ export default {
         Name: '正统俄刻阿诺斯',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12175: {
         Name: '正统大螯陆蟹',
@@ -569,25 +612,31 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '无读条背后AOE',
+        tip: '背后扇形AOE',
     },
     12176: {
         Name: '正统虾蛄',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12177: {
         Name: '正统皮拉鱼',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12178: {
         Name: '正统水蛭',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12179: {
         Name: '正统扎拉坦',
@@ -602,20 +651,26 @@ export default {
         Name: '正统冰元精',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '死亡后爆炸(不可见钢铁AOE)',
     },
     12181: {
         Name: '正统爆弹鱼',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12182: {
         Name: '正统石鳍鲨',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         tip: '释放直线跟踪型秒杀级AOE,须隔墙躲避(不穿无敌)',
     },
     12183: {
@@ -625,7 +680,93 @@ export default {
         Weakness: {
             Stun: true,
         },
-        tip: '冰盾Buff，被物理攻击击中则秒杀',
+        tip: '带冰Buff，被物理攻击击中则秒杀',
+    },
+    12184: {
+        Name: 'Orthos pteroc',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12185: {
+        Name: 'Orthos drake',
+        Threat: '小心',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12186: {
+        Name: 'Orthos cobra',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12187: {
+        Name: 'Orthos monitor',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12188: {
+        Name: 'Orthos anala',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+    },
+    12189: {
+        Name: 'Orthos diplocaulus',
+        Threat: '小心',
+        Aggro: '范围',
+        Weakness: {},
+        Tip: 'AOE让命中怪物获得闪避Buff',
+    },
+    12190: {
+        Name: 'Orthos basilisk',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '击退',
+    },
+    12191: {
+        Name: 'Orthos matamata',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '',
+    },
+    12192: {
+        Name: 'Orthos palleon',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '拉近紧接AOE',
+    },
+    12193: {
+        Name: '正统法拉克',
+        Threat: '危险',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '近战范围安全的环形AOE',
+    },
+    12194: {
+        Name: 'Orthos gowrow',
+        Threat: '小心',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '无读条正、反面扇形AOE',
+    },
+    12195: {
+        Name: 'Orthoninja',
+        Threat: '小心',
+        Aggro: '范围',
+        Weakness: {},
+        Tip: '斩杀血量低于20%',
+    },
+    12196: {
+        Name: 'Haokah perfected',
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '击退',
     },
     12197: {
         Name: '正统巨嘴鸟',
@@ -904,7 +1045,7 @@ export default {
         tip: '1) 半场顺劈，正面安全; 2) 在BOSS下方和外环生成即死区域',
     },
     12261: {
-        Name: "复制系统",
+        Name: '复制系统',
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},

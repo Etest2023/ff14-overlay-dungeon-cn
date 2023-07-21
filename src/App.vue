@@ -51,7 +51,7 @@ import { GetZoneDataById } from './modules/data/zone'
 const killCount = ref(0)
 const currentIdMap = ref({})
 const floorTips = ref('')
-const currentId = ref(12203)
+const currentId = ref(0)
 const floorTipsVisible = ref(false)
 
 const currentEnemy = computed(() => currentIdMap.value[currentId.value])
@@ -85,7 +85,6 @@ init({
         if (getEnemyData) {
             const { default: data } = await getEnemyData()
             currentIdMap.value = data
-            console.log(currentIdMap)
         }
         if (getFloorData) {
             floorTips.value = await getFloorData()
