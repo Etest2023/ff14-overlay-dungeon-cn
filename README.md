@@ -1,4 +1,4 @@
-# ff14-overlay-dungeon
+# ff14-overlay-dungeon-cn
 FF14 ngld 悬浮窗
 
 ## 介绍
