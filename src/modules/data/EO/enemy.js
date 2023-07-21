@@ -283,6 +283,7 @@ export default {
             Stun: true,
             Slow: false,
         },
+        Tip: '无仇恨读条点名黄圈',
     },
     12135: {
         Name: '正统铁巨人',
@@ -340,7 +341,7 @@ export default {
             Stun: true,
             Slow: true,
         },
-        Tip: '未进战时读条释放大范围AOE，命中附加易伤debuff；\n平A单体重攻击',
+        Tip: '无仇恨读条大范围AOE，命中附加易伤debuff',
     },
     12142: {
         Name: '正统布罗宾雅克',
@@ -357,6 +358,7 @@ export default {
         Weakness: {
             Stun: false,
         },
+        Tip: '近战范围钢铁，吃到被击退并击晕，随后秒杀眩晕中的玩家',
     },
     12144: {
         Name: '正统龟甲龙',
@@ -381,7 +383,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '释放钢铁AOE，命中后附加缩小debuff；秒杀拥有缩小debuff的玩家，穿无敌',
+        Tip: '释放钢铁AOE，命中后附加缩小debuff；秒杀缩小的玩家，穿无敌',
     },
     12147: {
         Name: '正统铁血战士',
@@ -409,7 +411,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '释放不可见全屏AOE，可背对回避，命中被附加眩晕debuff；点名一名玩家释放AOE',
+        Tip: '读条石化视线，随后点名黄圈',
     },
     12150: {
         Name: '正统弥诺陶洛斯',
@@ -450,15 +452,16 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '点名一名玩家释放可见圆形AOE；给附近一只怪赋予伤害提升一倍buff',
+        Tip: '点名黄圈；给附近一只怪赋予伤害提升一倍buff',
     },
     12155: {
         Name: '正统那迦',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
+        Tip: '读条石化视线',
     },
     12156: {
         Name: '正统疫虫',
@@ -490,7 +493,7 @@ export default {
             Stun: true,
             Slow: true,
         },
-        Tip: '赋予自己一分钟的加速buff，加重攻击高频率出现，同时不影响平A；不吃晕',
+        Tip: '赋予自己一分钟的加速buff',
     },
     12160: {
         Name: '正统山巨魔',
@@ -500,7 +503,7 @@ export default {
             Stun: true,
             Heavy: true,
         },
-        Tip: '背后不可见扇形AOE；点名一名玩家释放可见圆形AOE',
+        Tip: '背后不可见扇形AOE；点名黄圈',
     },
     12161: {
         Name: '正统阿帕斯',
@@ -518,7 +521,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '点名一名玩家冲锋，随后快速读条，释放不可见钢铁AOE',
+        Tip: '点名一名玩家冲锋，随后快速读条钢铁',
     },
     12163: {
         Name: '正统库库尔坎',
@@ -536,13 +539,15 @@ export default {
         Weakness: {
             Stun: false,
         },
-        Tip: '释放不可见全屏AOE，只可隔墙躲避，命中后附加眩晕debuff，随机扑向并秒杀眩晕玩家',
+        Tip: '释放不可见全屏AOE，只可隔墙躲避，命中眩晕5秒，随机扑向并秒杀眩晕玩家',
     },
     12165: {
         Name: '正统胡瓦西',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12166: {
         Name: '正统阿刻戎',
@@ -584,7 +589,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '释放无读条不可见钢铁AOE，伤害不高但会附加加重debuff',
+        Tip: '无读条钢铁AOE，伤害不高但会附加加重debuff',
     },
     12171: {
         Name: '正统班西',
@@ -686,7 +691,7 @@ export default {
         Weakness: {
             Stun: false,
         },
-        Tip: '释放直线跟踪型秒杀级AOE,须隔墙躲避(不穿无敌)',
+        Tip: '读条释放秒杀直线冲锋，卡障碍物躲避(不穿无敌)',
     },
     12183: {
         Name: '正统尤弥尔',
@@ -698,58 +703,60 @@ export default {
         Tip: '带冰Buff，被物理攻击击中则秒杀',
     },
     12184: {
-        Name: 'Orthos pteroc',
+        Name: '正统翼蜥',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12185: {
-        Name: 'Orthos drake',
+        Name: '正统烈阳火蛟',
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
     },
     12186: {
-        Name: 'Orthos cobra',
+        Name: '正统眼镜蛇',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12187: {
-        Name: 'Orthos monitor',
+        Name: '正统飞巨蜥',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12188: {
-        Name: 'Orthos anala',
+        Name: '正统阿那罗',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
     },
     12189: {
-        Name: 'Orthos diplocaulus',
+        Name: '正统笠头螈',
         Threat: '小心',
         Aggro: '范围',
         Weakness: {},
         Tip: 'AOE让命中怪物获得闪避Buff',
     },
     12190: {
-        Name: 'Orthos basilisk',
+        Name: '正统石蜥蜴',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '击退',
     },
     12191: {
-        Name: 'Orthos matamata',
+        Name: '正统玛塔蛇颈龟',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
         Tip: '',
     },
     12192: {
-        Name: 'Orthos palleon',
+        Name: '正统侏儒避役',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
@@ -763,21 +770,21 @@ export default {
         Tip: '近战范围安全的环形AOE',
     },
     12194: {
-        Name: 'Orthos gowrow',
+        Name: '正统高牢怪龙',
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
         Tip: '无读条正、反面扇形AOE',
     },
     12195: {
-        Name: 'Orthoninja',
+        Name: '正统忍者',
         Threat: '小心',
         Aggro: '范围',
         Weakness: {},
         Tip: '斩杀血量低于20%',
     },
     12196: {
-        Name: 'Haokah perfected',
+        Name: '正统哈奥卡',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
