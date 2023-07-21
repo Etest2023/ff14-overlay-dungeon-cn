@@ -20,6 +20,6 @@ FF14 ngld 悬浮窗
 - 免费捐助：帮助收集完善提示信息，在作品发布渠道反馈
   - [github](https://github.com/Etest2023/ff14-overlay-dungeon-cn/issues)
   - [NGA]()
-- 付费捐助：帮我充值游戏时间用以开发测试、完善功能
-  - 充值账号：Kaishirr1
-  - 游戏区服：陆行鸟
+- 付费捐助：为我充值国服游戏时间，用以开发测试、完善功能
+  - 充值账号：`Kaishirr1`
+  - 游戏区服：`陆行鸟`
