@@ -10,7 +10,7 @@
                 </span>
                 <span class="title">{{ currentEnemy.Name }}</span>
             </p>
-            <p>
+            <p class="Aggro">
                 <b>{{ currentEnemy.Aggro }}</b
                 >{{ currentEnemy.Aggro === 'Boss' ? '' : '感知' }}
             </p>
@@ -55,7 +55,7 @@ const currentId = ref(0)
 const floorTipsVisible = ref(false)
 
 const currentEnemy = computed(() => currentIdMap.value[currentId.value])
-const currentEnemyIsBoss = computed(() => currentEnemy.value && currentEnemy.value.Threat === 'Boss')
+const currentEnemyIsBoss = computed(() => currentEnemy.value && currentEnemy.value.Aggro === 'Boss')
 
 watch(currentEnemy, (val) => {
     if(val && floorTipsVisible.value) {
@@ -112,6 +112,8 @@ header
         color #fff
     &.危险
         color red
+.Aggro
+    font-size 6vw
 .Weakness
     margin 1vw 0
     padding 0
