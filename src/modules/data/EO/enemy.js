@@ -281,13 +281,16 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Slow: false,
         },
     },
     12135: {
         Name: '正统铁巨人',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12136: {
         Name: '正统卡利亚',
@@ -351,7 +354,9 @@ export default {
         Name: '正统婆那罗',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
     },
     12144: {
         Name: '正统龟甲龙',
@@ -1043,6 +1048,12 @@ export default {
     },
     12240: {
         Name: '蜜言妖',
+        Threat: '简单',
+        Aggro: 'Boss',
+        Weakness: {},
+    },
+    12242: {
+        Name: '提亚马特复制体',
         Threat: '简单',
         Aggro: 'Boss',
         Weakness: {},
