@@ -14,7 +14,7 @@
                 <b>{{ currentEnemy.Aggro }}</b
                 >{{ currentEnemy.Aggro === 'Boss' ? '' : '感知' }}
             </p>
-            <ul class="Weakness">
+            <ul class="Weakness" v-if="!currentEnemyIsBoss">
                 <li
                     class="icon stun"
                     :class="{ valid: currentEnemy.Weakness.Stun }"
@@ -36,7 +36,7 @@
                     :class="{ valid: currentEnemy.Weakness.Sleep }"
                 ></li>
             </ul>
-            <p class="desc">{{ currentEnemy.tip || '' }}</p>
+            <p class="desc">{{ currentEnemy.Tip || '' }}</p>
         </section>
         <section v-else-if="!currentEnemyIsBoss">
             <p class="desc floor" v-if="floorTips && floorTipsVisible">{{ floorTips }}</p>
