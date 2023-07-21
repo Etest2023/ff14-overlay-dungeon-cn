@@ -37,13 +37,20 @@ jobs:
           node-version: '16'
           cache: pnpm
           
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+          
       - name: Cache dependencies
         uses: actions/cache@v3
         id: pnpm-cache
         with:
           path: |
             node_modules
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock') }} }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }} }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
 
