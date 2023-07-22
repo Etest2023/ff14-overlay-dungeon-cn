@@ -20,7 +20,7 @@ export function GetZoneDataById(id) {
                 getEnemyData: () => import('./EO/enemy'),
                 getFloorData: () => import('./EO/floor').then(list=> list?.default?.[EO.indexOf(id)]),
             }
-        // case 'HoH': return {getEnemyData: ()=>import('./HoH/enemy'), getFloorData: ()=>import('./HoH/floor')}
+        case 'HoH': return {getEnemyData: ()=>import('./HoH/enemy'), getFloorData: ()=>import('./HoH/floor')}
         // case 'PotD': return {getEnemyData: ()=>import('./PotD/enemy'), getFloorData: ()=>import('./PotD/floor')}
     }
 }
