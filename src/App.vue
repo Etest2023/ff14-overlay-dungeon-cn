@@ -113,7 +113,7 @@ header
     &.危险
         color red
 .Aggro
-    font-size 6vw
+    font-size 5vw
 .Weakness
     margin 1vw 0
     padding 0

@@ -41,7 +41,7 @@ export default function init({
 
             if(type === '261'){
                 //切换目标
-                const regx = /^105:Change:(?<personId>\w+):TargetID:(?<targetId>\w+):/
+                const regx = /^105:Change:(?<personId>\w+):.*?PCTargetID:(?<targetId>\w+)/
                 const {groups} = info.match(regx) ?? {}
                 const {personId, targetId} = groups || {}
                 if(personId === userId){
@@ -68,7 +68,7 @@ export default function init({
     });
     addOverlayListener("ChangeZone", zone=>{
         enemyStore = {}
-        console.log(zone.zoneID, zone)
+        // console.log(zone.zoneID, zone)
         ChangeZone(zone.zoneID)
     });
     startOverlayEvents()

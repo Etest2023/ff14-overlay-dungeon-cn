@@ -400,7 +400,7 @@ export default {
         Threat: '危险',
         Aggro: '视觉',
         Weakness: {
-            Stun: true,
+            Stun: false,
         },
         Tip: '随机面向一名玩家释放正面超大范围AOE；释放钢铁AOE；平A单体重攻击',
     },
@@ -533,7 +533,7 @@ export default {
         Tip: '无仇恨读条释放大范围AOE，命中附加易伤debuff；平A单体重攻击',
     },
     12164: {
-        Name: '正统霍尔猎犬',
+        Name: '正统霜狼',
         Threat: '危险',
         Aggro: '视觉',
         Weakness: {
@@ -594,7 +594,7 @@ export default {
     12171: {
         Name: '正统班西',
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '范围',
         Weakness: {
             Stun: true,
         },
@@ -712,7 +712,9 @@ export default {
         Name: '正统烈阳火蛟',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12186: {
         Name: '正统眼镜蛇',
@@ -730,7 +732,9 @@ export default {
         Name: '正统阿那罗',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12189: {
         Name: '正统笠头螈',
@@ -752,21 +756,27 @@ export default {
         Name: '正统玛塔蛇颈龟',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '',
     },
     12192: {
         Name: '正统侏儒避役',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '拉近紧接AOE',
     },
     12193: {
         Name: '正统法拉克',
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '近战范围安全的环形AOE',
     },
     12194: {
@@ -817,6 +827,14 @@ export default {
         },
         Tip: '对一仇三连冲锋,注意减伤；点名一名玩家释放可见圆形AOE',
     },
+    12200: {
+        Name: '正统长须豹',
+        Threat: '危险',
+        Aggro: '视觉',
+        Weakness: {
+            Stun: true,
+        },
+    },
     12201: {
         Name: '正统凶狼',
         Threat: '简单',
@@ -842,6 +860,15 @@ export default {
             Stun: true,
         },
         Tip: '无仇恨时读条释放超大AOE',
+    },
+    12204: {
+        Name: '正统曙象',
+        Threat: '小心',
+        Aggro: '视觉',
+        Weakness: {
+            Stun: false,
+        },
+        Tip: '冲锋接钢铁',
     },
     12205: {
         Name: '正统女忍',
@@ -886,7 +913,9 @@ export default {
         Name: '正统深瞳',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '宽条形AOE,无法利用视线躲避',
     },
     12211: {
@@ -990,7 +1019,7 @@ export default {
         },
     },
     12226: {
-        Name: '正统系统γ',
+        Name: '正统恐慌装甲',
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
@@ -1012,7 +1041,9 @@ export default {
         Name: '正统系统α',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12230: {
         Name: '正统扎戈斧龙',
@@ -1025,7 +1056,9 @@ export default {
         Name: '正统采掘无人机',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
     },
     12232: {
         Name: '正统浮游炮主板',
@@ -1038,8 +1071,10 @@ export default {
     12233: {
         Name: '正统自控化奇美拉',
         Threat: '危险',
-        Aggro: '视觉',
-        Weakness: {},
+        Aggro: '范围',
+        Weakness: {
+            Stun: false,
+        },
     },
     12234: {
         Name: '正统自控化弥诺陶洛斯',
