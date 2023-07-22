@@ -1,5 +1,200 @@
 export default {
+    // HoH floors 1-10
+    7262: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7263: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7264: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7265: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "范围",
+        Weakness: {},
+        Tip: "",
+    },
+    7266: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7267: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7268: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7269: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "范围",
+        Weakness: {},
+        Tip: "",
+    },
+    7270: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7271: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7272: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7273: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
+    7274: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "",
+    },
 
+    // HoH floors 11-20
+    7275: {},
+    7276: {},
+    7277: {},
+    7278: {},
+    7279: {},
+    7280: {},
+    7281: {},
+    7282: {},
+    7283: {},
+    7284: {},
+    7285: {},
+    7286: {},
+    7287: {},
+
+    // HoH floors 21-30
+    7288: {},
+    7289: {},
+    7290: {},
+    7291: {},
+    7292: {},
+    7293: {},
+    7294: {},
+    7295: {},
+    7296: {},
+    7297: {},
+    7298: {},
+    7299: {},
+    7300: {},
+
+    // HoH floors 31-40
+    7301: {},
+    7302: {},
+    7303: {},
+    7304: {},
+    7305: {},
+    7306: {},
+    7307: {},
+    7308: {},
+    7309: {},
+    7310: {},
+    7311: {},
+    7312: {},
+    7313: {},
+
+    // HoH floors 41-50
+    7314: {},
+    7315: {},
+    7316: {},
+    7317: {},
+    7318: {},
+    7319: {},
+    7320: {},
+    7321: {},
+    7322: {},
+    7323: {},
+    7324: {},
+    7325: {},
+    7326: {},
+
+    // HoH floors 51-60
+    7327: {},
+    7328: {},
+    7329: {},
+    7330: {},
+    7331: {},
+    7332: {},
+    7333: {},
+    7334: {},
+    7335: {},
+    7336: {},
+    7337: {},
+    7338: {},
+    7339: {},
+
+    // HoH floors 61-70
+    7340: {},
+    7341: {},
+    7342: {},
+    7343: {},
+    7344: {},
+    7345: {},
+    7346: {},
+    7347: {},
+    7348: {},
+    7349: {},
+    7350: {},
+    7351: {},
+
+    // HoH floors 71-80
+    7352: {},
+    7353: {},
+    7354: {},
+    7355: {},
+    7356: {},
+    7357: {},
+    7358: {},
+    7359: {},
+    7360: {},
+    7361: {},
+    7362: {},
+    7363: {},
+    7364: {},
 
     // HoH floors 81-89
     7365: {
@@ -12,9 +207,6 @@ export default {
         },
         Tip: "寒冰远离，雷电靠近，可打断",
     },
-    /*
-            { 7375, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, Vuln = new MobData.Vulnerabilities{CanStun = false}, MobNotes="Cone AoE, circle AoE, partywide damage" } },
-    */
     7366: {
         Name: "天之老猿",
         Threat: "小心",
@@ -85,7 +277,7 @@ export default {
             Slow: true,
             Stun: true,
         },
-        Tip: "顺劈，开怪一分钟后给自己附加伤害上升BUFF",
+        Tip: "顺劈，开怪60秒后给自己附加伤害上升BUFF",
     },
     7373: {
         Name: "天之紫衫",
@@ -137,5 +329,167 @@ export default {
         Tip: "开怪时冲锋，附加伤害上升BUFF，无范围提示前方扇形AOE",
     },
 
+    // HoH floors 91-99
+    7378: {
+        Name: "天之肉人（战士）",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Slow: true,
+            Bind: true,
+        },
+        Tip: "三连击退冲锋，开怪30秒后大伤害死刑",
+    },
+    7379: {
+        Name: "天之肉人（武僧）",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Slow: true,
+            Bind: true,
+        },
+        Tip: "给自身附加加速BUFF，之后附加回避上升BUFF",
+    },
+    7380: {
+        Name: "天之肉人（白魔）",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Slow: true,
+            Bind: true,
+        },
+        Tip: "读条卡墙躲避",
+    },
+    7381: {
+        Name: "天之三船",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Slow: true,
+            Bind: true,
+        },
+        Tip: "点名直线AOE，尽量卡墙",
+    },
+    7382: {
+        Name: "天之邪鬼",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Slow: true,
+            Bind: true,
+        },
+        Tip: "点随机玩家释放圆形AOE，分散站位；点一名玩家释放大漩涡减至1血",
+    },
+    7383: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7384: {
+        Name: "天之镜像",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Slow: true,
+            Sleep: true,
+            Bind: true,
+        },
+        Tip: "点名圆形AOE，脱战时也会使用，会给自己和周围敌人附加防御BUFF",
+    },
+    7385: {
+        Name: "天之黑骑士",
+        Threat: "简单",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+            Slow: true,
+            Sleep: true,
+            Bind: true,
+        },
+        Tip: "顺劈，点名AOE",
+    },
+    7386: {
+        Name: "天之沙布提",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Slow: true,
+            Sleep: true,
+            Bind: true,
+        },
+        Tip:"直线AOE"
+    },
+    7387: {
+        Name: "天之前鬼",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+            Slow: true,
+        },
+        Tip: "随机平A一名玩家",
+    },
+    7388: {
+        Name: "天之牛头",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Slow: true,
+        },
+        Tip: "开怪后冲锋，面向随机玩家释放大范围扇形AOE，大范围钢铁",
+    },
+    7389: {
+        Name: "天之无头鬼",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Slow: true,
+        },
+        Tip: "顺劈，生命吸取，自身伤害增加，约60秒狂暴",
+    },
+    7390: {
+        Name: "天之马",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Slow: true,
+            Sleep: true,
+            Stun: true,
+        },
+        Tip: "顺劈，前方直线AOE"
+    },
+    7391: {
+        Name: "天之渡渡鸟",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Slow: true,
+            Stun: true,
+        },
+        Tip: "顺劈，扇形AOE带睡眠"
+    },
+    7584: {
+        Name: "天之人马",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {},
+        Tip: "永久叠加伤害上升BUFF，点名随机玩家使用一个超大范围aoe,邪眼，狂暴"
+    },
 
 }
