@@ -82,6 +82,7 @@ init({
         
         //决定使用哪套数据
         const { getEnemyData, getFloorData } = GetZoneDataById(zoneId) ?? {}
+        console.log("zone id: " + zoneId)
         if (getEnemyData) {
             const { default: data } = await getEnemyData()
             currentIdMap.value = data
