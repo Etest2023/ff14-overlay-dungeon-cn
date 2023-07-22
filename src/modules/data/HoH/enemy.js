@@ -4,21 +4,27 @@ export default {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7263: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7264: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7265: {
@@ -32,169 +38,907 @@ export default {
         Name: "",
         Threat: "小心",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7267: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7268: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7269: {
         Name: "",
         Threat: "简单",
         Aggro: "范围",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7270: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7271: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7272: {
         Name: "",
         Threat: "危险",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7273: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
     7274: {
         Name: "",
         Threat: "简单",
         Aggro: "视觉",
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: "",
     },
 
     // HoH floors 11-20
-    7275: {},
-    7276: {},
-    7277: {},
-    7278: {},
-    7279: {},
-    7280: {},
-    7281: {},
-    7282: {},
-    7283: {},
-    7284: {},
-    7285: {},
-    7286: {},
-    7287: {},
+    7275: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7276: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7277: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7278: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7279: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7280: {
+        Name: "",
+        Threat: "范围",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7281: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7282: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7283: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7284: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7285: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7286: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7287: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
 
     // HoH floors 21-30
-    7288: {},
-    7289: {},
-    7290: {},
-    7291: {},
-    7292: {},
-    7293: {},
-    7294: {},
-    7295: {},
-    7296: {},
-    7297: {},
-    7298: {},
-    7299: {},
-    7300: {},
+    7288: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7289: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7290: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7291: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7292: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7293: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7294: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7295: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7296: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7297: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7298: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7299: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7300: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
 
     // HoH floors 31-40
-    7301: {},
-    7302: {},
-    7303: {},
-    7304: {},
-    7305: {},
-    7306: {},
-    7307: {},
-    7308: {},
-    7309: {},
-    7310: {},
-    7311: {},
-    7312: {},
-    7313: {},
+    7301: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7302: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7303: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7304: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7305: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7306: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7307: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7308: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7309: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7310: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7311: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7312: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7313: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
 
     // HoH floors 41-50
-    7314: {},
-    7315: {},
-    7316: {},
-    7317: {},
-    7318: {},
-    7319: {},
-    7320: {},
-    7321: {},
-    7322: {},
-    7323: {},
-    7324: {},
-    7325: {},
-    7326: {},
+    7314: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7315: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7316: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7317: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7318: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7319: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7320: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7321: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7322: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7323: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7324: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7325: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7326: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
 
     // HoH floors 51-60
-    7327: {},
-    7328: {},
-    7329: {},
-    7330: {},
-    7331: {},
-    7332: {},
-    7333: {},
-    7334: {},
-    7335: {},
-    7336: {},
-    7337: {},
-    7338: {},
-    7339: {},
+    7327: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7328: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7329: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7330: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7331: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7332: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7333: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7334: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7335: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7336: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7337: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7338: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7339: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
 
     // HoH floors 61-70
-    7340: {},
-    7341: {},
-    7342: {},
-    7343: {},
-    7344: {},
-    7345: {},
-    7346: {},
-    7347: {},
-    7348: {},
-    7349: {},
-    7350: {},
-    7351: {},
+    7340: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7341: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7342: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7343: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7344: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "听觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7345: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7346: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7347: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7348: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7349: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7350: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7351: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
 
     // HoH floors 71-80
-    7352: {},
-    7353: {},
-    7354: {},
-    7355: {},
-    7356: {},
-    7357: {},
-    7358: {},
-    7359: {},
-    7360: {},
-    7361: {},
-    7362: {},
-    7363: {},
-    7364: {},
+    7352: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7353: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7354: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7355: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7356: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7357: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "脱战时释放大范围AOE，吸引玩家后释放正面AOE",
+    },
+    7358: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7359: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "范围",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7360: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "",
+    },
+    7361: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "吸引攻击，大范围AOE，会狂暴",
+    },
+    7362: {
+        Name: "",
+        Threat: "小心",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7363: {
+        Name: "",
+        Threat: "简单",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: false,
+        },
+        Tip: "",
+    },
+    7364: {
+        Name: "",
+        Threat: "危险",
+        Aggro: "视觉",
+        Weakness: {
+            Stun: true,
+        },
+        Tip: "双重攻击，大范围AOE",
+    },
 
     // HoH floors 81-89
     7365: {
@@ -256,7 +1000,7 @@ export default {
             Slow: true,
             Stun: true,
         },
-        Tip: "顺劈，后方有玩家时释放扇形AOE；单人时可引导落肘减少平A",
+        Tip: "双重攻击，后方有玩家时释放扇形AOE；单人时可引导落肘减少平A",
     },
     7371: {
         Name: "天之独眼",
@@ -277,7 +1021,7 @@ export default {
             Slow: true,
             Stun: true,
         },
-        Tip: "顺劈，开怪60秒后给自己附加伤害上升BUFF",
+        Tip: "双重攻击，开怪60秒后给自己附加伤害上升BUFF",
     },
     7373: {
         Name: "天之紫衫",
@@ -340,7 +1084,7 @@ export default {
             Slow: true,
             Bind: true,
         },
-        Tip: "三连击退冲锋，开怪30秒后大伤害死刑",
+        Tip: "三连击退冲锋，开怪30秒后死刑",
     },
     7379: {
         Name: "天之肉人（武僧）",
@@ -352,7 +1096,7 @@ export default {
             Slow: true,
             Bind: true,
         },
-        Tip: "给自身附加加速BUFF，之后附加回避上升BUFF",
+        Tip: "自身附加加速BUFF，之后附加回避上升BUFF",
     },
     7380: {
         Name: "天之肉人（白魔）",
@@ -376,7 +1120,7 @@ export default {
             Slow: true,
             Bind: true,
         },
-        Tip: "点名直线AOE，尽量卡墙",
+        Tip: "点名直线AOE，卡墙躲避",
     },
     7382: {
         Name: "天之邪鬼",
@@ -472,7 +1216,7 @@ export default {
             Sleep: true,
             Stun: true,
         },
-        Tip: "顺劈，前方直线AOE"
+        Tip: "双重攻击，前方直线AOE"
     },
     7391: {
         Name: "天之渡渡鸟",
@@ -482,7 +1226,7 @@ export default {
             Slow: true,
             Stun: true,
         },
-        Tip: "顺劈，扇形AOE带睡眠"
+        Tip: "双重攻击，扇形AOE带睡眠"
     },
     7584: {
         Name: "天之人马",
