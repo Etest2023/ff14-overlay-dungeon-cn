@@ -7,7 +7,7 @@ import legacy from '@vitejs/plugin-legacy'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const config = {
-    base: "/ffxiv-overlay-dungeon-cn/",
+    base: "/ff14-overlay-dungeon-cn/",
     plugins: [
       vue(),
     ],
