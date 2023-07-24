@@ -68,7 +68,7 @@ export default function init({
     });
     addOverlayListener("ChangeZone", zone=>{
         enemyStore = {}
-        // console.log(zone.zoneID, zone)
+
         ChangeZone(zone.zoneID)
     });
     startOverlayEvents()

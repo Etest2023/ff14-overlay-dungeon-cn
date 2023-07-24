@@ -1,7 +1,7 @@
 export default {
     // HoH floors 1-10
     7262: {
-        Name: "",
+        Name: "天之无壳观梦螺",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -10,7 +10,7 @@ export default {
         Tip: "",
     },
     7263: {
-        Name: "",
+        Name: "天之鯥鮟鱇",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -19,7 +19,7 @@ export default {
         Tip: "",
     },
     7264: {
-        Name: "",
+        Name: "天之刺球爆弹怪",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -28,14 +28,14 @@ export default {
         Tip: "",
     },
     7265: {
-        Name: "",
+        Name: "天之怨灵",
         Threat: "危险",
         Aggro: "范围",
         Weakness: {},
         Tip: "",
     },
     7266: {
-        Name: "",
+        Name: "天之珊瑚壳",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -44,7 +44,7 @@ export default {
         Tip: "",
     },
     7267: {
-        Name: "",
+        Name: "天之牛鬼",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -53,7 +53,7 @@ export default {
         Tip: "",
     },
     7268: {
-        Name: "",
+        Name: "天之蟒蛇",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -62,7 +62,7 @@ export default {
         Tip: "",
     },
     7269: {
-        Name: "",
+        Name: "天之蛸入道",
         Threat: "简单",
         Aggro: "范围",
         Weakness: {
@@ -71,7 +71,7 @@ export default {
         Tip: "",
     },
     7270: {
-        Name: "",
+        Name: "天之安居鮟鱇",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -80,7 +80,7 @@ export default {
         Tip: "",
     },
     7271: {
-        Name: "",
+        Name: "天之玛塔蛇颈龟",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -89,7 +89,7 @@ export default {
         Tip: "",
     },
     7272: {
-        Name: "",
+        Name: "天之飞鲨",
         Threat: "危险",
         Aggro: "视觉",
         Weakness: {
@@ -98,7 +98,7 @@ export default {
         Tip: "",
     },
     7273: {
-        Name: "",
+        Name: "天之切网虾蛄",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -107,7 +107,7 @@ export default {
         Tip: "",
     },
     7274: {
-        Name: "",
+        Name: "天之观梦螺",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -118,7 +118,7 @@ export default {
 
     // HoH floors 11-20
     7275: {
-        Name: "",
+        Name: "天之叶小妖",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -127,7 +127,7 @@ export default {
         Tip: "",
     },
     7276: {
-        Name: "",
+        Name: "天之滴",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -136,7 +136,7 @@ export default {
         Tip: "",
     },
     7277: {
-        Name: "",
+        Name: "天之盐虫",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -145,7 +145,7 @@ export default {
         Tip: "",
     },
     7278: {
-        Name: "",
+        Name: "天之一日蛇",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -154,7 +154,7 @@ export default {
         Tip: "",
     },
     7279: {
-        Name: "",
+        Name: "天之甲鲎",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -163,7 +163,7 @@ export default {
         Tip: "",
     },
     7280: {
-        Name: "",
+        Name: "天之阿帕斯",
         Threat: "范围",
         Aggro: "视觉",
         Weakness: {
@@ -172,7 +172,7 @@ export default {
         Tip: "",
     },
     7281: {
-        Name: "",
+        Name: "天之巨蜥",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -181,7 +181,7 @@ export default {
         Tip: "",
     },
     7282: {
-        Name: "",
+        Name: "天之龙之子",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -190,7 +190,7 @@ export default {
         Tip: "",
     },
     7283: {
-        Name: "",
+        Name: "天之盐尝",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -199,7 +199,7 @@ export default {
         Tip: "",
     },
     7284: {
-        Name: "",
+        Name: "天之祈雨龟",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -208,7 +208,7 @@ export default {
         Tip: "",
     },
     7285: {
-        Name: "",
+        Name: "天之鲶鱼精",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -217,7 +217,7 @@ export default {
         Tip: "",
     },
     7286: {
-        Name: "",
+        Name: "天之右手",
         Threat: "危险",
         Aggro: "视觉",
         Weakness: {
@@ -226,7 +226,7 @@ export default {
         Tip: "",
     },
     7287: {
-        Name: "",
+        Name: "天之盐蓝燕",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -237,7 +237,7 @@ export default {
 
     // HoH floors 21-30
     7288: {
-        Name: "",
+        Name: "天之鬼火",
         Threat: "简单",
         Aggro: "范围",
         Weakness: {
@@ -246,7 +246,7 @@ export default {
         Tip: "",
     },
     7289: {
-        Name: "",
+        Name: "天之刺草球",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -255,7 +255,7 @@ export default {
         Tip: "",
     },
     7290: {
-        Name: "",
+        Name: "天之陀鲁婆",
         Threat: "简单",
         Aggro: "范围",
         Weakness: {
@@ -264,7 +264,7 @@ export default {
         Tip: "",
     },
     7291: {
-        Name: "",
+        Name: "天之赛太岁",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -273,7 +273,7 @@ export default {
         Tip: "",
     },
     7292: {
-        Name: "",
+        Name: "天之旗本",
         Threat: "小心",
         Aggro: "范围",
         Weakness: {
@@ -282,7 +282,7 @@ export default {
         Tip: "",
     },
     7293: {
-        Name: "",
+        Name: "天之长手精",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -291,7 +291,7 @@ export default {
         Tip: "",
     },
     7294: {
-        Name: "",
+        Name: "天之毛羽毛现",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -300,7 +300,7 @@ export default {
         Tip: "",
     },
     7295: {
-        Name: "",
+        Name: "天之幽鬼",
         Threat: "小心",
         Aggro: "范围",
         Weakness: {
@@ -309,7 +309,7 @@ export default {
         Tip: "",
     },
     7296: {
-        Name: "",
+        Name: "天之鸦天狗",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -318,7 +318,7 @@ export default {
         Tip: "",
     },
     7297: {
-        Name: "",
+        Name: "天之高加颅",
         Threat: "简单",
         Aggro: "听觉",
         Weakness: {
@@ -327,7 +327,7 @@ export default {
         Tip: "",
     },
     7298: {
-        Name: "",
+        Name: "天之片轮车",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -336,7 +336,7 @@ export default {
         Tip: "",
     },
     7299: {
-        Name: "",
+        Name: "天之面灵气",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -345,7 +345,7 @@ export default {
         Tip: "",
     },
     7300: {
-        Name: "",
+        Name: "天之轮入道",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -356,7 +356,7 @@ export default {
 
     // HoH floors 31-40
     7301: {
-        Name: "",
+        Name: "天之獦狚",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -365,7 +365,7 @@ export default {
         Tip: "",
     },
     7302: {
-        Name: "",
+        Name: "天之红角犀鸟",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -374,7 +374,7 @@ export default {
         Tip: "",
     },
     7303: {
-        Name: "",
+        Name: "天之般若",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -383,7 +383,7 @@ export default {
         Tip: "",
     },
     7304: {
-        Name: "",
+        Name: "天之切腹般若",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -392,7 +392,7 @@ export default {
         Tip: "",
     },
     7305: {
-        Name: "",
+        Name: "天之隐密",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -401,7 +401,7 @@ export default {
         Tip: "",
     },
     7306: {
-        Name: "",
+        Name: "天之猛虎",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -410,7 +410,7 @@ export default {
         Tip: "",
     },
     7307: {
-        Name: "",
+        Name: "天之猛禽",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -419,7 +419,7 @@ export default {
         Tip: "",
     },
     7308: {
-        Name: "",
+        Name: "天之清房",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -428,7 +428,7 @@ export default {
         Tip: "",
     },
     7309: {
-        Name: "",
+        Name: "天之足轻",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -437,7 +437,7 @@ export default {
         Tip: "",
     },
     7310: {
-        Name: "",
+        Name: "天之狮子",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -446,7 +446,7 @@ export default {
         Tip: "",
     },
     7311: {
-        Name: "",
+        Name: "天之隐密",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -455,7 +455,7 @@ export default {
         Tip: "",
     },
     7312: {
-        Name: "",
+        Name: "天之婆那罗",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -464,7 +464,7 @@ export default {
         Tip: "",
     },
     7313: {
-        Name: "",
+        Name: "天之土偶",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -475,7 +475,7 @@ export default {
 
     // HoH floors 41-50
     7314: {
-        Name: "",
+        Name: "天之骰子",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -484,7 +484,7 @@ export default {
         Tip: "",
     },
     7315: {
-        Name: "",
+        Name: "天之岩石",
         Threat: "简单",
         Aggro: "范围",
         Weakness: {
@@ -493,7 +493,7 @@ export default {
         Tip: "",
     },
     7316: {
-        Name: "",
+        Name: "天之陀罗",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -502,7 +502,7 @@ export default {
         Tip: "",
     },
     7317: {
-        Name: "",
+        Name: "天之石像",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -511,7 +511,7 @@ export default {
         Tip: "",
     },
     7318: {
-        Name: "",
+        Name: "天之石板",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -520,7 +520,7 @@ export default {
         Tip: "",
     },
     7319: {
-        Name: "",
+        Name: "天之骰子",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -529,7 +529,7 @@ export default {
         Tip: "",
     },
     7320: {
-        Name: "",
+        Name: "天之异石",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -538,7 +538,7 @@ export default {
         Tip: "",
     },
     7321: {
-        Name: "",
+        Name: "天之赤岩",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -547,7 +547,7 @@ export default {
         Tip: "",
     },
     7322: {
-        Name: "",
+        Name: "天之物岩",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -556,7 +556,7 @@ export default {
         Tip: "",
     },
     7323: {
-        Name: "",
+        Name: "天之异石",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -565,7 +565,7 @@ export default {
         Tip: "",
     },
     7324: {
-        Name: "",
+        Name: "天之黑兔",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -574,7 +574,7 @@ export default {
         Tip: "",
     },
     7325: {
-        Name: "",
+        Name: "天之石像",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -583,7 +583,7 @@ export default {
         Tip: "",
     },
     7326: {
-        Name: "",
+        Name: "天之仙女虫",
         Threat: "小心",
         Aggro: "听觉",
         Weakness: {
@@ -594,7 +594,7 @@ export default {
 
     // HoH floors 51-60
     7327: {
-        Name: "",
+        Name: "天之鸣釜",
         Threat: "小心",
         Aggro: "听觉",
         Weakness: {
@@ -603,7 +603,7 @@ export default {
         Tip: "",
     },
     7328: {
-        Name: "",
+        Name: "天之螳螂",
         Threat: "小心",
         Aggro: "听觉",
         Weakness: {
@@ -612,7 +612,7 @@ export default {
         Tip: "",
     },
     7329: {
-        Name: "",
+        Name: "天之牙蜥",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -621,7 +621,7 @@ export default {
         Tip: "",
     },
     7330: {
-        Name: "",
+        Name: "天之金刚铃",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -630,7 +630,7 @@ export default {
         Tip: "",
     },
     7331: {
-        Name: "",
+        Name: "天之铁爪",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -639,7 +639,7 @@ export default {
         Tip: "",
     },
     7332: {
-        Name: "",
+        Name: "天之圆石",
         Threat: "小心",
         Aggro: "范围",
         Weakness: {
@@ -648,7 +648,7 @@ export default {
         Tip: "",
     },
     7333: {
-        Name: "",
+        Name: "天之机关人",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -657,7 +657,7 @@ export default {
         Tip: "",
     },
     7334: {
-        Name: "",
+        Name: "天之沙布提",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -666,7 +666,7 @@ export default {
         Tip: "",
     },
     7335: {
-        Name: "",
+        Name: "天之铁臂",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -675,7 +675,7 @@ export default {
         Tip: "",
     },
     7336: {
-        Name: "",
+        Name: "天之无厘头",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -684,7 +684,7 @@ export default {
         Tip: "",
     },
     7337: {
-        Name: "",
+        Name: "天之那迦",
         Threat: "危险",
         Aggro: "视觉",
         Weakness: {
@@ -693,7 +693,7 @@ export default {
         Tip: "",
     },
     7338: {
-        Name: "",
+        Name: "天之铁巨人",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -702,7 +702,7 @@ export default {
         Tip: "",
     },
     7339: {
-        Name: "",
+        Name: "天之无畏",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -713,7 +713,7 @@ export default {
 
     // HoH floors 61-70
     7340: {
-        Name: "",
+        Name: "天之嫩草",
         Threat: "小心",
         Aggro: "听觉",
         Weakness: {
@@ -722,7 +722,7 @@ export default {
         Tip: "",
     },
     7341: {
-        Name: "",
+        Name: "天之万年草",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -731,7 +731,7 @@ export default {
         Tip: "",
     },
     7342: {
-        Name: "",
+        Name: "天之岩虫",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -740,7 +740,7 @@ export default {
         Tip: "",
     },
     7343: {
-        Name: "",
+        Name: "天之海滨水母",
         Threat: "小心",
         Aggro: "范围",
         Weakness: {
@@ -749,7 +749,7 @@ export default {
         Tip: "",
     },
     7344: {
-        Name: "",
+        Name: "天之毒芹",
         Threat: "简单",
         Aggro: "听觉",
         Weakness: {
@@ -758,7 +758,7 @@ export default {
         Tip: "",
     },
     7345: {
-        Name: "",
+        Name: "天之小袖贝",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -767,7 +767,7 @@ export default {
         Tip: "",
     },
     7346: {
-        Name: "",
+        Name: "天之尸生花",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -776,7 +776,7 @@ export default {
         Tip: "",
     },
     7347: {
-        Name: "",
+        Name: "天之东莨菪",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -785,7 +785,7 @@ export default {
         Tip: "",
     },
     7348: {
-        Name: "",
+        Name: "天之彭侯",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -794,7 +794,7 @@ export default {
         Tip: "",
     },
     7349: {
-        Name: "",
+        Name: "天之树木子",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -803,7 +803,7 @@ export default {
         Tip: "",
     },
     7350: {
-        Name: "",
+        Name: "天之魔界花",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -812,7 +812,7 @@ export default {
         Tip: "",
     },
     7351: {
-        Name: "",
+        Name: "天之血樱",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -823,7 +823,7 @@ export default {
 
     // HoH floors 71-80
     7352: {
-        Name: "",
+        Name: "天之四九火",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -832,7 +832,7 @@ export default {
         Tip: "",
     },
     7353: {
-        Name: "",
+        Name: "天之生邪魔",
         Threat: "小心",
         Aggro: "范围",
         Weakness: {
@@ -841,7 +841,7 @@ export default {
         Tip: "",
     },
     7354: {
-        Name: "",
+        Name: "天之野山羊",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -850,7 +850,7 @@ export default {
         Tip: "",
     },
     7355: {
-        Name: "",
+        Name: "天之狼",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -859,7 +859,7 @@ export default {
         Tip: "",
     },
     7356: {
-        Name: "",
+        Name: "天之雪蜥",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -868,16 +868,16 @@ export default {
         Tip: "",
     },
     7357: {
-        Name: "",
+        Name: "天之长毛象",
         Threat: "危险",
         Aggro: "视觉",
         Weakness: {
             Stun: false,
         },
-        Tip: "脱战时释放大范围AOE，吸引玩家后释放正面AOE",
+        Tip: "未进战斗时释放大范围AOE，吸引玩家后释放正面AOE",
     },
     7358: {
-        Name: "",
+        Name: "天之豆腐",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -886,7 +886,7 @@ export default {
         Tip: "",
     },
     7359: {
-        Name: "",
+        Name: "天之狮鹫",
         Threat: "危险",
         Aggro: "范围",
         Weakness: {
@@ -895,7 +895,7 @@ export default {
         Tip: "",
     },
     7360: {
-        Name: "",
+        Name: "天之雪人",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -904,7 +904,7 @@ export default {
         Tip: "",
     },
     7361: {
-        Name: "",
+        Name: "天之牦牛",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -913,7 +913,7 @@ export default {
         Tip: "吸引攻击，大范围AOE，会狂暴",
     },
     7362: {
-        Name: "",
+        Name: "天之冰牙",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -922,7 +922,7 @@ export default {
         Tip: "",
     },
     7363: {
-        Name: "",
+        Name: "天之冰山",
         Threat: "简单",
         Aggro: "视觉",
         Weakness: {
@@ -931,7 +931,7 @@ export default {
         Tip: "",
     },
     7364: {
-        Name: "",
+        Name: "天之白狮",
         Threat: "危险",
         Aggro: "视觉",
         Weakness: {
@@ -959,7 +959,7 @@ export default {
             Sleep: true,
             Slow: true,
         },
-        Tip: "脱战状态吃香蕉会提升自身伤害，会对视野内玩家释放AOE并叠加易伤",
+        Tip: "未进战斗时吃香蕉会提升自身伤害，会对视野内玩家释放AOE并叠加易伤",
    },
     7367: {
         Name: "天之象魔",
@@ -989,7 +989,7 @@ export default {
             Sleep: true,
             Slow: true,
         },
-        Tip: "圆形AOE，脱战时也会使用",
+        Tip: "圆形AOE，未进战斗时也会使用",
     },
     7370: {
         Name: "天之龙人",
@@ -1135,7 +1135,7 @@ export default {
         Tip: "点随机玩家释放圆形AOE，分散站位；点一名玩家释放大漩涡减至1血",
     },
     7383: {
-        Name: "",
+        Name: "天之蜥武者",
         Threat: "小心",
         Aggro: "视觉",
         Weakness: {
@@ -1153,7 +1153,7 @@ export default {
             Sleep: true,
             Bind: true,
         },
-        Tip: "点名圆形AOE，脱战时也会使用，会给自己和周围敌人附加防御BUFF",
+        Tip: "点名圆形AOE，未进战斗时也会使用，会给自己和周围敌人附加防御BUFF",
     },
     7385: {
         Name: "天之黑骑士",
