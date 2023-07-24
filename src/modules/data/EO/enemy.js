@@ -102,6 +102,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Sleep: true,
         },
     },
     12114: {
@@ -186,7 +188,10 @@ export default {
         Name: '正统士兵',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
     },
     12123: {
         Name: '正统树木巨像',
@@ -249,13 +254,19 @@ export default {
         Name: '正统大魔界花',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: false,
+        },
     },
     12131: {
         Name: '正统剧毒美人',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: true,
+        },
     },
     12132: {
         Name: '正统破坏者',
@@ -263,8 +274,10 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: false,
+            Bind: false,
+            Heavy: false,
         },
-        Tip: '血量30%以下回读条大范围AOE雾散爆发，可隔墙躲避',
+        Tip: '血量30%以下读条大范围AOE雾散爆发，可隔墙躲避',
     },
     12133: {
         Name: '正统骑士',
@@ -273,7 +286,7 @@ export default {
         Weakness: {
             Stun: false,
         },
-        Tip: '释放大范围吸引，防击退有效，随后释放不可见钢铁AOE',
+        Tip: '大范围吸引，防击退有效，随后释放不可见钢铁AOE',
     },
     12134: {
         Name: '正统机甲',
@@ -325,6 +338,7 @@ export default {
             Stun: true,
             Heavy: true,
             Slow: true,
+            Bind: false,
         },
     },
     12140: {
@@ -374,6 +388,8 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12146: {
@@ -382,6 +398,8 @@ export default {
         Aggro: '听觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Sleep: true,
         },
         Tip: '释放钢铁AOE，命中后附加缩小debuff；秒杀缩小的玩家，穿无敌',
     },
@@ -392,6 +410,8 @@ export default {
         Weakness: {
             Stun: false,
             Slow: true,
+            Heavy: false,
+            Bind: false,
         },
         Tip: '赋予自己一分钟的加速buff',
     },
@@ -401,8 +421,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
-        Tip: '随机面向一名玩家释放正面超大范围AOE；释放钢铁AOE；平A单体重攻击',
+        Tip: '随机面向一名玩家释放正面超大范围AOE；释放钢铁AOE',
     },
     12149: {
         Name: '正统镜骑士',
@@ -410,6 +432,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
         Tip: '读条石化视线，随后点名黄圈',
     },
@@ -419,8 +443,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
-        Tip: '释放不可见钢铁AOE；释放正面扇形AOE；不吃战技封印',
+        Tip: '不可见钢铁AOE；正面扇形AOE；不吃战技封印',
     },
     12151: {
         Name: '正统爬虫半人马',
@@ -428,13 +454,19 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12152: {
         Name: '正统奇美拉',
         Threat: '危险',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '释放不可见月环AOE、钢铁AOE',
     },
     12153: {
@@ -443,6 +475,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12154: {
@@ -451,6 +485,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '点名黄圈；给附近一只怪赋予伤害提升一倍buff',
     },
@@ -460,8 +496,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
-        Tip: '读条石化视线',
+        Tip: '正面石化视线',
     },
     12156: {
         Name: '正统疫虫',
@@ -469,20 +507,28 @@ export default {
         Aggro: '听觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '释放正面范围不可见扇形AOE且附加击退效果，偶尔绕到玩家背后读条',
+        Tip: '正面范围不可见扇形AOE击退，偶尔绕到玩家背后读条',
     },
     12157: {
         Name: '正统拉米亚',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: true,
+        },
     },
     12158: {
         Name: '正统明胶怪',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '血量30%以下读条自爆，释放不可见大范围AOE，可隔墙躲避',
     },
     12159: {
@@ -492,6 +538,8 @@ export default {
         Weakness: {
             Stun: true,
             Slow: true,
+            Heavy: true,
+            Bind: true,
         },
         Tip: '赋予自己一分钟的加速buff',
     },
@@ -502,6 +550,7 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
+            Bind: true,
         },
         Tip: '背后不可见扇形AOE；点名黄圈',
     },
@@ -511,8 +560,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
+            Slow: false,
         },
-        Tip: '1) 平A重击，附加"加重"效果； 2) 点名加重玩家释放可见圆形AOE，扣血到1',
     },
     12162: {
         Name: '正统凯尔派',
@@ -521,7 +572,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '点名一名玩家冲锋，随后快速读条钢铁',
+        Tip: '点名冲锋，随后快速读条钢铁',
     },
     12163: {
         Name: '正统库库尔坎',
@@ -529,8 +580,11 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Slow: true,
+            Heavy: true,
+            Bind: false,
         },
-        Tip: '无仇恨读条释放大范围AOE，命中附加易伤debuff；平A单体重攻击',
+        Tip: '无仇恨读条释放大范围AOE，命中附加易伤debuff',
     },
     12164: {
         Name: '正统霜狼',
@@ -539,7 +593,7 @@ export default {
         Weakness: {
             Stun: false,
         },
-        Tip: '释放不可见全屏AOE，只可隔墙躲避，命中眩晕5秒，随机扑向并秒杀眩晕玩家',
+        Tip: '释放不可见全屏AOE，只可隔墙躲避，命中眩晕5秒，扑向并秒杀眩晕玩家',
     },
     12165: {
         Name: '正统胡瓦西',
@@ -547,6 +601,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
     },
     12166: {
@@ -555,6 +611,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
         Tip: '读条释放不可见全屏秒杀AOE，可插言打断或隔墙躲避；释放正面可见扇形AOE',
     },
@@ -564,13 +622,17 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Heavy: true,
+            Bind: false,
         },
     },
     12168: {
         Name: '正统古菩猩猩',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '正面无读条吸引，然后释放正面不可见扇形AOE',
     },
     12169: {
@@ -579,8 +641,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '每隔一段时间对玩家附加减速效果；点名一名玩家释放前方可见长直线AOE',
+        Tip: '每隔一段时间对玩家附加减速效果；点名可见长直线AOE',
     },
     12170: {
         Name: '正统土泥人',
@@ -588,8 +652,10 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '无读条钢铁AOE，伤害不高但会附加加重debuff',
+        Tip: '无读条钢铁，伤害不高但会附加加重debuff',
     },
     12171: {
         Name: '正统班西',
@@ -597,6 +663,8 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
     },
     12172: {
@@ -605,8 +673,10 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
-        Tip: '吸引后释放点名AOE',
+        Tip: '吸引后钢铁，防击退有效',
     },
     12173: {
         Name: '正统刺魟',
@@ -614,8 +684,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
-        Tip: '跳到玩家释放半房间击退; 圆环AOE; 点名AOE',
+        Tip: '跳到玩家释放半房间击退，紧接月环或钢铁; 点名AOE',
     },
     12174: {
         Name: '正统俄刻阿诺斯',
@@ -623,6 +695,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12175: {
@@ -631,6 +705,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
         Tip: '背后扇形AOE',
     },
@@ -640,7 +716,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
+        Tip: '加重紧接螺旋尾，血量降至1'
     },
     12177: {
         Name: '正统皮拉鱼',
@@ -648,6 +727,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12178: {
@@ -664,8 +745,10 @@ export default {
         Aggro: '听觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
-        Tip: '随机向前或后释放半圆AOE(前半不可见、后半可见)，然后立刻对反方向释放一次',
+        Tip: '向前或后释放半圆AOE，然后立刻对反方向释放一次',
     },
     12180: {
         Name: '正统冰元精',
@@ -673,6 +756,7 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Slow: false,
         },
         Tip: '死亡后爆炸(不可见钢铁AOE)',
     },
@@ -682,6 +766,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
     },
     12182: {
@@ -690,8 +776,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
-        Tip: '读条释放秒杀直线冲锋，卡障碍物躲避(不穿无敌)',
+        Tip: '点名读条释放秒杀直线冲锋，卡障碍物躲避(不穿无敌)',
     },
     12183: {
         Name: '正统尤弥尔',
@@ -699,8 +787,9 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
         },
-        Tip: '带冰Buff，被物理攻击击中则秒杀',
+        Tip: '读条上物理反伤Buff，受到物理攻击秒杀玩家',
     },
     12184: {
         Name: '正统翼蜥',
@@ -715,18 +804,26 @@ export default {
         Weakness: {
             Stun: true,
         },
+        Tip: '读条上物理反伤Buff，受到物理攻击秒杀玩家',
     },
     12186: {
         Name: '正统眼镜蛇',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: true,
+        },
+        Tip: '死亡立即爆炸，近距离易伤',
     },
     12187: {
         Name: '正统飞巨蜥',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: false,
+        },
     },
     12188: {
         Name: '正统阿那罗',
@@ -734,13 +831,18 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12189: {
         Name: '正统笠头螈',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: 'AOE让命中怪物获得闪避Buff',
     },
     12190: {
@@ -749,8 +851,9 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '击退',
     },
     12191: {
         Name: '正统玛塔蛇颈龟',
@@ -758,17 +861,19 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
         },
-        Tip: '',
     },
     12192: {
         Name: '正统侏儒避役',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '拉近紧接AOE',
+        Tip: '拉近紧接钢铁',
     },
     12193: {
         Name: '正统法拉克',
@@ -790,7 +895,10 @@ export default {
         Name: '正统忍者',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '斩杀血量低于20%',
     },
     12196: {
@@ -806,6 +914,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '释放正面小扇形AOE，附加减速debuff',
     },
@@ -816,7 +926,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '无读条点名AOE',
+        Tip: '无读条钢铁',
     },
     12199: {
         Name: '正统独角兽',
@@ -824,8 +934,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '对一仇三连冲锋,注意减伤；点名一名玩家释放可见圆形AOE',
+        Tip: '对一仇三连冲锋击退；点名黄圈',
     },
     12200: {
         Name: '正统长须豹',
@@ -833,7 +945,10 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
+        Tip: '正面、背面大范围扇形AOE，侧面安全',
     },
     12201: {
         Name: '正统凶狼',
@@ -849,6 +964,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
         Tip: '双重顺劈第二下无读条',
     },
@@ -858,6 +975,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '无仇恨时读条释放超大AOE',
     },
@@ -867,6 +986,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '冲锋接钢铁',
     },
@@ -874,8 +995,11 @@ export default {
         Name: '正统女忍',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
-        Tip: '如果血量低于20%则秒杀玩家',
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
+        Tip: '斩杀血量低于20%',
     },
     12206: {
         Name: '正统妖鸟',
@@ -884,21 +1008,24 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '释放全屏不可见AOE,背对回避;吃晕',
+        Tip: '全屏AOE，背对回避',
     },
     12207: {
         Name: '正统雷兽',
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
-        Tip: '1)无读条圆环AOE; 2) 无读条点名AOE，会摇尾巴',
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
+        Tip: '1)无读条月环; 2) 无读条钢铁，会摇尾巴',
     },
     12208: {
         Name: '正统焰兽',
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
-        Tip: '宽条形AOE,无法利用视线躲避',
+        Tip: '正面宽条形AOE，穿墙！',
     },
     12209: {
         Name: '正统卡尔加斯',
@@ -907,7 +1034,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '两次自由落体后大AOE，需要躲避视线或眩晕',
+        Tip: '两次自由落体后大AOE，需要卡墙或眩晕',
     },
     12210: {
         Name: '正统深瞳',
@@ -915,8 +1042,9 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
-        Tip: '宽条形AOE,无法利用视线躲避',
     },
     12211: {
         Name: '正统地生人',
@@ -959,12 +1087,17 @@ export default {
         Weakness: {
             Stun: true,
         },
+        Tip: '正面宽条形AOE',
     },
     12217: {
         Name: '正统铁面腐尸',
         Threat: '简单',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+            Heavy: false,
+            Bind: false,
+        },
     },
     12218: {
         Name: '正统卡托布莱帕斯',
@@ -972,6 +1105,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
     },
     12219: {
@@ -984,7 +1119,11 @@ export default {
         Name: '正统幽灵',
         Threat: '小心',
         Aggro: '范围',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+            Heavy: false,
+            Bind: false,
+        },
     },
     12221: {
         Name: '正统妖影',
@@ -1063,7 +1202,7 @@ export default {
     12232: {
         Name: '正统浮游炮主板',
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '范围',
         Weakness: {
             Stun: true,
         },
@@ -1124,7 +1263,7 @@ export default {
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '1) 旋风,读条结束时移动躲避\n 2) 俯冲,躲避俯冲的同时躲避旋风\n3) 生成4次需要躲避的风圈',
+        Tip: '1) 旋风,读条结束时移动躲避\n2) 俯冲,躲避俯冲的同时躲避旋风\n3) 生成4次需要躲避的风圈',
     },
     12265: {
         Name: '自控化奇美拉14X',
