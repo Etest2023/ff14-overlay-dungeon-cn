@@ -102,6 +102,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Sleep: true,
         },
     },
     12114: {
