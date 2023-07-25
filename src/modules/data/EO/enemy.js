@@ -1259,7 +1259,7 @@ export default {
         Weakness: {},
     },
     12263: {
-        Name: '双塔尼亚复制',
+        Name: '双塔尼亚复制体',
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},
@@ -1292,7 +1292,7 @@ export default {
         Weakness: {},
     },
     12323: {
-        Name: '美拉西迪亚复制',
+        Name: '美拉西迪亚复制体',
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {},
