@@ -36,6 +36,8 @@ export default {
         Weakness: {
             Slow: true,
             Sleep: true,
+            Heavy: false,
+            Bind: false,
         },
     },
     12107: {
@@ -45,6 +47,8 @@ export default {
         Weakness: {
             Stun: true,
             Slow: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12108: {
@@ -54,6 +58,7 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
+            Bind: false,
             Slow: true,
             Sleep: true,
         },
@@ -62,7 +67,10 @@ export default {
         Name: '正统贝希摩斯',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '对一仇目标读条击退攻击(防击退有效)；血量40%以下读条黄道陨石(大范围AOE)，可隔墙躲避',
     },
     12110: {
@@ -84,6 +92,7 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
+            Bind: false,
         },
     },
     12112: {
@@ -158,6 +167,9 @@ export default {
         Aggro: '范围',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
+            Slow: false,
         },
     },
     12119: {
@@ -209,7 +221,11 @@ export default {
         Name: '正统王冠',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Slow: true,
+            Heavy: false,
+            Bind: false,
+        },
     },
     12126: {
         Name: '正统大王花',
@@ -248,6 +264,7 @@ export default {
         Weakness: {
             Slow: true,
             Heavy: true,
+            Bind: true,
         },
     },
     12130: {
@@ -285,6 +302,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Bind: false,
+            Heavy: false,
         },
         Tip: '大范围吸引，防击退有效，随后释放不可见钢铁AOE',
     },
@@ -295,6 +314,7 @@ export default {
         Weakness: {
             Stun: true,
             Slow: false,
+            Heavy: true,
         },
         Tip: '无仇恨读条点名黄圈',
     },
@@ -304,6 +324,9 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Slow: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12136: {
@@ -328,6 +351,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
     },
     12139: {
@@ -354,6 +379,8 @@ export default {
         Weakness: {
             Stun: true,
             Slow: true,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '无仇恨读条大范围AOE，命中附加易伤debuff',
     },
@@ -371,6 +398,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
         Tip: '近战范围钢铁，吃到被击退并击晕，随后秒杀眩晕中的玩家',
     },
@@ -380,6 +409,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
     },
     12145: {
@@ -456,6 +487,7 @@ export default {
             Stun: true,
             Heavy: true,
             Bind: true,
+            Slow: true,
         },
     },
     12152: {
@@ -466,6 +498,7 @@ export default {
             Stun: false,
             Heavy: false,
             Bind: false,
+            Slow: true,
         },
         Tip: '释放不可见月环AOE、钢铁AOE',
     },
@@ -477,6 +510,7 @@ export default {
             Stun: true,
             Heavy: true,
             Bind: true,
+            Slow: true,
         },
     },
     12154: {
@@ -487,6 +521,7 @@ export default {
             Stun: true,
             Heavy: true,
             Bind: false,
+            Slow: true,
         },
         Tip: '点名黄圈；给附近一只怪赋予伤害提升一倍buff',
     },
@@ -509,6 +544,7 @@ export default {
             Stun: true,
             Heavy: true,
             Bind: true,
+            Slow: true,
         },
         Tip: '正面范围不可见扇形AOE击退，偶尔绕到玩家背后读条',
     },
@@ -519,6 +555,7 @@ export default {
         Weakness: {
             Heavy: true,
             Bind: true,
+            Slow: true,
         },
     },
     12158: {
@@ -551,6 +588,7 @@ export default {
             Stun: true,
             Heavy: true,
             Bind: true,
+            Slow: true,
         },
         Tip: '背后不可见扇形AOE；点名黄圈',
     },
@@ -571,6 +609,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+
         },
         Tip: '点名冲锋，随后快速读条钢铁',
     },
@@ -592,6 +632,7 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Slow: false,
         },
         Tip: '释放不可见全屏AOE，只可隔墙躲避，命中眩晕5秒，扑向并秒杀眩晕玩家',
     },
@@ -675,6 +716,7 @@ export default {
             Stun: false,
             Heavy: false,
             Bind: false,
+            Slow: true,
         },
         Tip: '吸引后钢铁，防击退有效',
     },
@@ -756,6 +798,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: true,
+            Bind: false,
             Slow: false,
         },
         Tip: '死亡后爆炸(不可见钢铁AOE)',
@@ -778,6 +822,7 @@ export default {
             Stun: false,
             Heavy: false,
             Bind: false,
+            Slow: true,
         },
         Tip: '点名读条释放秒杀直线冲锋，卡障碍物躲避(不穿无敌)',
     },
@@ -1283,7 +1328,10 @@ export default {
         Name: '正统裂钳蟹',
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: true,
+            Bind: true,
+        },
     },
     12322: {
         Name: '拉米亚女王',
