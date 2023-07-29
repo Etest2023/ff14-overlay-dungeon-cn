@@ -1227,21 +1227,28 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
     },
     12230: {
         Name: '正统扎戈斧龙',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
         Tip: '无仇恨读条大范围AOE；点名AOE击退非点名',
     },
     12231: {
         Name: '正统采掘无人机',
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '听觉',
         Weakness: {
             Stun: true,
+            Heavy: false,
+            Bind: false,
         },
     },
     12232: {
@@ -1255,16 +1262,20 @@ export default {
     12233: {
         Name: '正统自控化奇美拉',
         Threat: '危险',
-        Aggro: '范围',
+        Aggro: '视觉',
         Weakness: {
             Stun: false,
         },
+        Tip: '左右后读条大范围AOE、钢铁月环',
     },
     12234: {
         Name: '正统自控化弥诺陶洛斯',
         Threat: '小心',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Heavy: false,
+            Bind: false,
+        },
     },
     12235: {
         Name: '正统杜尔迦',
@@ -1295,7 +1306,7 @@ export default {
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '1) 半场顺劈，正面安全; 2) 在BOSS下方和外环生成即死区域',
+        Tip: '1) 半场顺劈，正面安全;\n2) 在BOSS下方和外环生成即死区域',
     },
     12261: {
         Name: '复制系统',
