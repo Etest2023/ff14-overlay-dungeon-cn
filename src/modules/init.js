@@ -1,75 +1,59 @@
-const {addOverlayListener, startOverlayEvents} = window
+const { addOverlayListener, startOverlayEvents } = window
 
 let userId = ''
 let enemyStore = {}
 
-export default function init({
-    onLogEvent,
-    ChangeZone,
-    
-}){
-    addOverlayListener('onPlayerChangedEvent', data=>{
-        if(userId) return
+export default function init({ onLogEvent, ChangeZone }) {
+    addOverlayListener('ChangePrimaryPlayer', (data) => {
+        if (userId) return
 
-        const {id} = data.detail ?? {}
-        if(!id) return
+        const { charID } = data ?? {}
+        if (!charID) return
 
-        userId = id.toString(16).toUpperCase()
+        userId = charID.toString(16).toUpperCase()
     })
-    addOverlayListener("onLogEvent", (data)=>{
-        const {
-            detail: {
-                logs = []
-            }
-        } = data
-        // console.log(logs)
-        logs.forEach(str=>{
-            if(!str) return
-
-            const regx = /^.{14} (?<type>[\w]+) (?<info>.+)/
-            const {groups} = str.match(regx) ?? {}
-            const {type, info} = groups ?? {}
-
-            if(['AddCombatant'].includes(type)){
-                const regx = /^03:(?<targetId>\w+):(?<targetName>[^:]+):\w+:\w+:0000:.{3}:(?<typeId>\w+):/
-                const matches = info.match(regx) ?? {}
-                if(!matches) return
-
-                const {typeId, targetId} = matches.groups || {}
-                enemyStore[targetId] = typeId || -1
-            }
-
-            if(type === '261'){
+    addOverlayListener('LogLine', (data) => {
+        const { line } = data
+        if (!line) return
+        // console.log(line)
+        const lineType = line[0]
+        const type = line[2]
+        if (lineType === '03') {
+            //储存敌对目标
+            const targetId = line[2]
+            const isEnemy = line[6] === '0000'
+            const typeId = line[9]
+            if (isEnemy) enemyStore[targetId] = typeId || -1
+        } else if (lineType === '261') {
+            if (type === 'Change') {
                 //切换目标
-                const regx = /^105:Change:(?<personId>\w+):.*?PCTargetID:(?<targetId>\w+)/
-                const {groups} = info.match(regx) ?? {}
-                const {personId, targetId} = groups || {}
-                if(personId === userId){
-                    const typeId = enemyStore[targetId]
-                    onLogEvent('Change', typeId)
+                const personId = line[3]
+                if (personId === userId) {
+                    const foundIndex = line.findIndex(
+                        (str) => str === 'PCTargetID',
+                    )
+                    if (foundIndex > -1) {
+                        const targetId = line[foundIndex + 1]
+                        const typeId = enemyStore[targetId]
+                        onLogEvent('Change', typeId)
+                    }
                 }
             }
-
+        } else if (lineType === '00') {
+            if (line[4] === '成功进行了传送！') ChangeZone()
+        } else if (['37', '38'].includes(lineType)) {
             //目标死亡，HP归零法
-            if(type === 'EffectResult'){
-                const regx = /^25:(?<targetId>\w+):(?<targetName>[^:]+):[^:]+:0:/
-                const {groups} = info.match(regx) ?? {}
-                const {targetId} = groups || {}
-                if(targetId && enemyStore[targetId]) {
-                    onLogEvent('Death')
-                }
+            const targetId = line[2]
+            const isZero = line[5] === '0'
+            if (isZero && targetId && enemyStore[targetId]) {
+                onLogEvent('Death')
             }
-            
-            if(type === 'ChatLog'){
-                const regx = /^00:.{6}成功进行了传送！/
-                if(regx.test(info)) ChangeZone()
-            }
-        })
-    });
-    addOverlayListener("ChangeZone", zone=>{
+        }
+    })
+    addOverlayListener('ChangeZone', (zone) => {
         enemyStore = {}
 
         ChangeZone(zone.zoneID)
-    });
+    })
     startOverlayEvents()
 }
