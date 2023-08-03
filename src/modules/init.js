@@ -46,6 +46,7 @@ export default function init({ onLogEvent, ChangeZone }) {
             const targetId = line[2]
             const isZero = line[5] === '0'
             if (isZero && targetId && enemyStore[targetId]) {
+                delete enemyStore[targetId] // 避免重复
                 onLogEvent('Death')
             }
         }
