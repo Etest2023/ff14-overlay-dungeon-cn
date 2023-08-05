@@ -49,6 +49,13 @@ export default function init({ onLogEvent, ChangeZone }) {
                 delete enemyStore[targetId] // 避免重复
                 onLogEvent('Death')
             }
+        } else if(lineType === '25'){
+            //目标死亡日志，高延迟
+            const targetId = line[2]
+            if (enemyStore[targetId]) {
+                delete enemyStore[targetId] // 避免重复
+                onLogEvent('Death')
+            }
         }
     })
     addOverlayListener('ChangeZone', (zone) => {

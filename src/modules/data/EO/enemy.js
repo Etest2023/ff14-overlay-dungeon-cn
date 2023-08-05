@@ -94,6 +94,8 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
+            Bind: true,
+            Slow: true,
             Sleep: true,
         },
     },
