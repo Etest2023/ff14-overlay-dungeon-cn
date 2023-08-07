@@ -172,6 +172,7 @@ export default {
         Aggro: '范围',
         Weakness: {
             Heavy: true,
+            Bind: false,
         },
     },
     12121: {
@@ -362,6 +363,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
     },
     12141: {
@@ -588,7 +591,7 @@ export default {
     12161: {
         Name: '正统阿帕斯',
         Threat: '简单',
-        Aggro: '视觉',
+        Aggro: '范围',
         Weakness: {
             Stun: true,
             Heavy: true,
@@ -603,7 +606,6 @@ export default {
         Weakness: {
             Stun: true,
             Heavy: true,
-
         },
         Tip: '点名冲锋，随后快速读条钢铁',
     },
@@ -626,6 +628,8 @@ export default {
         Weakness: {
             Stun: false,
             Slow: false,
+            Heavy: false,
+            Bind: false,
         },
         Tip: '释放不可见全屏AOE，只可隔墙躲避，命中眩晕5秒，扑向并秒杀眩晕玩家',
     },
@@ -773,6 +777,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12179: {
@@ -836,6 +842,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12185: {
@@ -932,6 +940,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: false,
+            Heavy: false,
+            Bind: false,
         },
         Tip: '看动作正、反面扇形AOE',
     },
@@ -953,6 +963,7 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Slow: true,
+            Heavy: true,
         },
         Tip: '击退',
     },
@@ -1056,6 +1067,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: false,
         },
         Tip: '全屏AOE，背对回避',
     },
@@ -1085,6 +1098,7 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
         },
         Tip: '两次自由落体后大AOE，需要卡墙或眩晕',
     },
@@ -1105,6 +1119,7 @@ export default {
         Weakness: {
             Stun: true,
         },
+        Tip: '点名大黄圈，接读条中距离扇形AOE',
     },
     12212: {
         Name: '正统百目妖',
@@ -1202,7 +1217,7 @@ export default {
     12222: {
         Name: '正统深渊',
         Threat: '简单',
-        Aggro: '范围',
+        Aggro: '视觉',
         Weakness: {
             Stun: false,
         },
@@ -1238,7 +1253,7 @@ export default {
     },
     12226: {
         Name: '正统恐慌装甲',
-        Threat: '简单',
+        Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
