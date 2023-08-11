@@ -964,6 +964,7 @@ export default {
         Weakness: {
             Slow: true,
             Heavy: true,
+            Bind: true,
         },
         Tip: '击退',
     },
@@ -1015,6 +1016,8 @@ export default {
         Aggro: '视觉',
         Weakness: {
             Stun: true,
+            Heavy: true,
+            Bind: true,
         },
     },
     12202: {
