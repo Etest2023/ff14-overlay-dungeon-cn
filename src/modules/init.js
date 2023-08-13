@@ -2,7 +2,6 @@ const { addOverlayListener, startOverlayEvents } = window
 
 let userId = ''
 let enemyStore = {}
-let enemyType = {}
 
 export default function init({ onLogEvent, ChangeZone }) {
     addOverlayListener('ChangePrimaryPlayer', (data) => {
@@ -21,15 +20,10 @@ export default function init({ onLogEvent, ChangeZone }) {
         const type = line[2]
         if (lineType === '03') {
             //储存敌对目标
-            // console.log(line)
             const targetId = line[2]
-            const targetName = line[3]
             const isEnemy = line[6] === '0000'
             const typeId = line[9]
-            if (isEnemy) {
-                enemyStore[targetId] = typeId || -1
-                enemyType[typeId] = targetName
-            }
+            if (isEnemy) enemyStore[targetId] = typeId || -1
         } else if (lineType === '261') {
             if (type === 'Change') {
                 //切换目标
@@ -66,7 +60,6 @@ export default function init({ onLogEvent, ChangeZone }) {
     })
     addOverlayListener('ChangeZone', (zone) => {
         enemyStore = {}
-        console.log(zone, enemyType)
         ChangeZone(zone.zoneID)
     })
     startOverlayEvents()
