@@ -1,8 +1,19 @@
 <template>
-    <header v-if="!currentEnemyIsBoss">
+    <header v-if="killCountVisibble">
         本层击杀数：<b>{{ killCount }}</b>
     </header>
     <main>
+        <section class="settings">
+            <p>配置项：</p>
+            <label class="settings-item">
+                <input
+                    type="checkbox"
+                    v-model="configKillCountLimitVisible"
+                />
+                <div>仅在深层迷宫中展示 本层击杀数</div>
+            </label>
+            <p class="setting-tip">（长期不用记得从ACT关闭悬浮窗，ACT会更流畅）</p>
+        </section>
         <section v-if="currentEnemy">
             <p>
                 <span class="type" :class="currentEnemy.Threat"
@@ -39,7 +50,9 @@
             <p class="desc">{{ currentEnemy.Tip || '' }}</p>
         </section>
         <section v-else-if="!currentEnemyIsBoss">
-            <p class="desc floor" v-if="floorTips && floorTipsVisible">{{ floorTips }}</p>
+            <p class="desc floor" v-if="floorTips && floorTipsVisible">
+                {{ floorTips }}
+            </p>
         </section>
     </main>
 </template>
@@ -52,13 +65,26 @@ const killCount = ref(0)
 const currentIdMap = ref({})
 const floorTips = ref('')
 const currentId = ref(0)
+const configKillCountLimitVisible = ref(false)
 const floorTipsVisible = ref(false)
 
 const currentEnemy = computed(() => currentIdMap.value[currentId.value])
-const currentEnemyIsBoss = computed(() => currentEnemy.value && currentEnemy.value.Aggro === 'Boss')
+const currentEnemyIsBoss = computed(
+    () => currentEnemy.value && currentEnemy.value.Aggro === 'Boss',
+)
+const killCountVisibble = computed(() => {
+    if (
+        configKillCountLimitVisible.value &&
+        Object.keys(currentIdMap.value).length === 0
+    ) {
+        return false
+    }
+
+    return !currentEnemyIsBoss.value
+})
 
 watch(currentEnemy, (val) => {
-    if(val && floorTipsVisible.value) {
+    if (val && floorTipsVisible.value) {
         floorTipsVisible.value = false
     }
 })
@@ -76,10 +102,10 @@ init({
         killCount.value = 0
         floorTipsVisible.value = true
 
-        if(!zoneId) return
+        if (!zoneId) return
         currentIdMap.value = {}
         floorTips.value = ''
-        
+
         //决定使用哪套数据
         const { getEnemyData, getFloorData } = GetZoneDataById(zoneId) ?? {}
 
@@ -156,4 +182,26 @@ header
 .desc
     margin-top 2vw
     white-space pre-wrap
+
+.settings{
+    margin-top 2vw
+    font-size 4.5vw
+    line-height 5vw
+    .settings-item{
+        margin-top 1vw
+        display flex
+        align-items flex-end
+        cursor pointer
+    }
+    input{
+        margin 0 1vw 0 0
+        width 5vw
+        height 5vw
+        cursor pointer
+    }
+    .setting-tip{
+        margin-top 1vw
+        font-size 3vw
+    }
+}
 </style>

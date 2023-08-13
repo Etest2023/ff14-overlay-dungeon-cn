@@ -19,25 +19,29 @@
             [v-cloak] {
                 display: none;
             }
-            .unlocked {
+            #unlocked-tip {
+                display: flex;
                 position: fixed;
                 bottom: 0;
                 right: 0;
-                display: none;
                 z-index: 20;
                 font-size: 16px;
             }
+            .locked #unlocked-tip{
+                display: none;
+            }
+            .locked .settings{
+                display: none;
+            }
         </style>
     </head>
-    <body>
-        <div id="unlocked" class="unlocked" v-cloak>
+    <body class="unlocked">
+        <div id="unlocked-tip" v-cloak>
             🔓 未锁定（可调整大小）
         </div>
         <script>
             document.addEventListener('onOverlayStateUpdate', (e) => {
-                const unlocked = document.getElementById('unlocked')
-                if (e.detail.isLocked) unlocked.style.display = 'none'
-                else unlocked.style.display = 'flex'
+                document.body.className = e.detail.isLocked ? 'locked' : 'unlocked'
             })
         </script>
         <script src="https://overlay.diemoe.net/common/common.min.js"></script>
