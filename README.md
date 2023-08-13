@@ -2,7 +2,7 @@
 FF14 ngld 悬浮窗
 
 ## 介绍
-正统优雷卡、天宫（未开始：死宫）登顶攻略，ACT ngld悬浮窗
+正统优雷卡、天宫、死宫登顶攻略，ACT ngld悬浮窗
 
 ![image](https://github.com/Etest2023/ff14-overlay-dungeon-cn/assets/140046246/0b94cafb-63ba-452a-bf47-c00123807c13)
 

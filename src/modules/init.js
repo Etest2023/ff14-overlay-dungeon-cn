@@ -60,7 +60,6 @@ export default function init({ onLogEvent, ChangeZone }) {
     })
     addOverlayListener('ChangeZone', (zone) => {
         enemyStore = {}
-
         ChangeZone(zone.zoneID)
     })
     startOverlayEvents()
