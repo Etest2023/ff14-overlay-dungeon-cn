@@ -1,4 +1,11 @@
 export default {
+    5288: {
+        Name: "黑铠甲帝国阵营官",
+        Threat: '简单',
+        Aggro: '视觉',
+        Weakness: {},
+        Tip: '罕见未知生物',
+    },
     5360: {
         Name: '深宫松鼠',
         Threat: '简单',
@@ -72,7 +79,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '高伤害“终极针”',
+        Tip: '狂暴“终极针”秒杀单人',
     },
     5367: {
         Name: '深宫盲头蟹',
@@ -151,7 +158,7 @@ export default {
             Bind: false,
             Sleep: true,
         },
-        Tip: '吸引接钢铁',
+        Tip: '吸引接钢铁，吸引时若背对会被眩晕吃钢铁',
     },
     5375: {
         Name: '深宫粘液怪',
@@ -181,7 +188,7 @@ export default {
         Weakness: {
             Sleep: true,
         },
-        Tip: '读条无敌Buff，可打断',
+        Tip: '可打断读条无敌Buff',
     },
     5378: {
         Name: "深宫大口花",
@@ -213,7 +220,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '瞬发短暂睡眠，接读条扇形AOE',
+        Tip: '瞬发短暂睡眠，接读条扇形AOE臭气',
     },
     5381: {
         Name: "深宫软糊怪",
@@ -233,7 +240,7 @@ export default {
             Heavy: false,
             Bind: false,
         },
-        Tip: '石化、中毒；秒杀踩陷阱变蟾蜍的玩家',
+        Tip: '石化、中毒；秒杀踩陷阱变青蛙的玩家',
     },
     5383: {
         Name: "深宫比洛克",
@@ -367,7 +374,7 @@ export default {
             Bind: false,
             Sleep: true,
         },
-        Tip: '中距离不可见钢铁，命中高伤害并击退',
+        Tip: '不可见钢铁，命中高伤害并击退',
     },
     5396: {
         Name: "深宫斯卡尼特",
@@ -411,7 +418,9 @@ export default {
         Name: "深宫食人魔",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         Tip: '',
     },
     5401: {
@@ -433,7 +442,7 @@ export default {
         Weakness: {
             Stun: true,
         },
-        Tip: '不可见扇形AOE“5级石化”',
+        Tip: '不可见扇形AOE',
     },
     5403: {
         Name: "深宫扎哈克",
@@ -446,16 +455,16 @@ export default {
         Tip: '',
     },
     5404: {
-        Name: "深宫护卫",
+        Name: "深宫鬼鱼",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
             Stun: true,
         },
-        Tip: '',
+        Tip: '吸引接钢铁',
     },
     5405: {
-        Name: "深宫卡托布莱帕斯",
+        Name: "深宫行吟诗人",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -465,24 +474,26 @@ export default {
         Tip: '',
     },
     5406: {
-        Name: "深宫贪吃鬼",
+        Name: "深宫牛头魔",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
             Sleep: true,
         },
-        Tip: '目标AOE附加流血',
+        Tip: '',
     },
     5407: {
-        Name: 'deep palace guard',
+        Name:"深宫护卫",
         Threat: '简单',
         Aggro: '视觉',
-        Weakness: {},
+        Weakness: {
+            Stun: false,
+        },
         Tip: '',
     },
     5408: {
-        Name: 'deep palace catoblepas',
+        Name: "深宫卡托布莱帕斯",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -491,7 +502,7 @@ export default {
         Tip: '',
     },
     5409: {
-        Name: 'deep palace gourmand',
+        Name: "深宫贪吃鬼",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -499,10 +510,10 @@ export default {
             Sleep: true,
             Undead: true,
         },
-        Tip: '131-140层：无特别技能(忽略威胁等级)\n191-200层：双重平A',
+        Tip: '191-200层：双重平A',
     },
     5410: {
-        Name: 'Ah Puch',
+        Name: "阿普切",
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {
@@ -510,49 +521,42 @@ export default {
         },
         Tip: '',
     },
-    5411: {
-        Name: 'deep palace follower',
-        Threat: '简单',
-        Aggro: '视觉',
-        Weakness: {},
-        Tip: '',
-    },
     5412: {
-        Name: 'deep palace ked',
+        Name: "深宫巨虻",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
         Tip: '',
     },
     5413: {
-        Name: 'deep palace demon',
+        Name: "深宫恶魔",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
-        Tip: '“卡律布迪斯” - 半狂暴,降低全部血量至1%\n',
+        Tip: '狂暴，降低血量至1%',
     },
     5414: {
-        Name: 'deep palace gargoyle',
+        Name: "深宫石像鬼",
         Threat: '危险',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
-        Tip: '超高伤害，附加中毒',
+        Tip: '高伤害，中毒',
     },
     5415: {
-        Name: 'deep palace knight',
+        Name: "深宫骑士",
         Threat: '危险',
         Aggro: '范围',
         Weakness: {
-            Stun: true,
+            Stun: false,
         },
-        Tip: '141-150层:\n无特别技能(忽略威胁等级)\n191-200层:\n释放大型圈形AOE“死亡螺旋”,造成重伤\n拥有软狂暴 - 大幅增加伤害',
+        Tip: '191-200层：高伤害月环AOE',
     },
     5416: {
-        Name: 'deep palace bhoot',
+        Name: "深宫浮灵",
         Threat: '简单',
         Aggro: '声音',
         Weakness: {
@@ -561,7 +565,7 @@ export default {
         Tip: '',
     },
     5417: {
-        Name: 'deep palace hellhound',
+        Name: "深宫地狱犬",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -570,7 +574,7 @@ export default {
         Tip: '',
     },
     5418: {
-        Name: 'deep palace persona',
+        Name: "深宫假面",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -579,7 +583,7 @@ export default {
         Tip: '',
     },
     5419: {
-        Name: 'deep palace succubus',
+        Name: "深宫梦魔",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -588,47 +592,47 @@ export default {
         Tip: '',
     },
     5420: {
-        Name: 'onyx dragon',
+        Name: "奥尼克斯龙",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {},
-        Tip: '释放凝视“邪眼”',
+        Tip: '可背对读条AOE',
     },
     5421: {
-        Name: 'deep palace manticore',
+        Name: "深宫曼提克",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {},
-        Tip: '增加自身伤害，不可见高伤害“撕裂之爪”',
+        Tip: '看动作正面不可见顺劈',
     },
     5422: {
-        Name: 'deep palace wraith',
+        Name: "深宫幽灵",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
             Stun: true,
             Undead: true,
         },
-        Tip: '高生命值，超大AOE“尖叫”',
+        Tip: '无仇恨点名黄圈，可打断读条超大AOE',
     },
     5423: {
-        Name: 'deep palace keeper',
+        Name: "深宫守卫",
         Threat: '危险',
         Aggro: '声音',
         Weakness: {
             Undead: true,
         },
-        Tip: '高伤害',
+        Tip: '高伤害，191+层瞬发DPS半血AOE',
     },
     5424: {
-        Name: 'Tisiphone',
+        Name: "提西福涅",
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},
         Tip: '召唤小怪\n“狂热丧尸”会抓住玩家使其无法移动直到被消灭\n“狂热魅魔”如果抵达BOSS会治疗BOSS\n',
     },
     5429: {
-        Name: 'deep palace deepeye',
+        Name: "深宫深瞳",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
@@ -640,25 +644,25 @@ export default {
         Tip: '双重平A\n凝视附加麻痹\n',
     },
     5430: {
-        Name: 'deep palace gremlin',
+        Name: "深宫格雷姆林",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
-        Tip: '附加易伤debuff',
+        Tip: '易伤',
     },
     5431: {
-        Name: 'deep palace devilet',
+        Name: "深宫小恶魔",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
-        Tip: '“冰锥”反射伤害\n“虚无冰释”附加减速\n',
+        Tip: '可打断读条物理反伤',
     },
     5432: {
-        Name: 'deep palace shabti',
+        Name: "深宫沙布提",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -667,7 +671,7 @@ export default {
         Tip: '',
     },
     5433: {
-        Name: 'deep palace soulflayer',
+        Name: "深宫夺魂魔",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -675,10 +679,10 @@ export default {
             Heavy: true,
             Bind: true,
         },
-        Tip: '双重吸血自动攻击',
+        Tip: '双重平A吸血',
     },
     5434: {
-        Name: 'deep palace arch demon',
+        Name: "深宫上级恶魔",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -687,7 +691,7 @@ export default {
         Tip: '',
     },
     5435: {
-        Name: 'deep palace abaia',
+        Name: "深宫阿巴伊",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -696,7 +700,7 @@ export default {
         Tip: '',
     },
     5436: {
-        Name: 'deep palace marolith',
+        Name: "深宫马洛里石",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -705,7 +709,7 @@ export default {
         Tip: '双重平A',
     },
     5437: {
-        Name: 'deep palace pot',
+        Name: "深宫魔力罐",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -713,17 +717,17 @@ export default {
             Heavy: true,
             Bind: true,
         },
-        Tip: '双重平A\n凝视造成重伤害和致盲\n',
+        Tip: '双重平A\n可背对读条AOE致盲',
     },
     5438: {
-        Name: 'Todesritter',
+        Name: "非生骑士",
         Threat: '小心',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '落下持续AOE,如果站在里面会造成重度流血\n“巨人之锤” - 针对玩家的不可避免直线AOE,以玩家为中心,避开外围的AOE\n',
+        Tip: '',
     },
     5439: {
-        Name: 'deep palace lindwurm',
+        Name: "深宫森疾龙",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -735,7 +739,7 @@ export default {
         Tip: '',
     },
     5440: {
-        Name: 'deep palace archaeosaur',
+        Name: "深宫古恐龙",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -746,7 +750,7 @@ export default {
         Tip: '',
     },
     5441: {
-        Name: 'deep palace diplocaulus',
+        Name: "深宫笠头螈",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -758,7 +762,7 @@ export default {
         Tip: '',
     },
     5442: {
-        Name: 'deep palace triceratops',
+        Name: "深宫三角龙",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -769,7 +773,7 @@ export default {
         Tip: '双重平A',
     },
     5443: {
-        Name: 'deep palace croc',
+        Name: "深宫中音巨鳄",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
@@ -781,7 +785,7 @@ export default {
         Tip: '双重平A',
     },
     5444: {
-        Name: 'deep palace mylodon',
+        Name: "深宫磨齿兽",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -790,7 +794,7 @@ export default {
         Tip: '',
     },
     5445: {
-        Name: 'deep palace tursus',
+        Name: "深宫图苏斯水龙蜥",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -799,7 +803,7 @@ export default {
         Tip: '',
     },
     5446: {
-        Name: 'deep palace sarcosuchus',
+        Name: "深宫帝王鳄",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -811,7 +815,7 @@ export default {
         Tip: '',
     },
     5447: {
-        Name: 'deep palace vinegaroon',
+        Name: "深宫醋蝎龙",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -820,7 +824,7 @@ export default {
         Tip: '',
     },
     5448: {
-        Name: 'deep palace pteranodon',
+        Name: "深宫无齿翼龙",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -832,14 +836,14 @@ export default {
         Tip: '',
     },
     5449: {
-        Name: 'Yulunggu',
+        Name: "虹蛇",
         Threat: '简单',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '“淹没” - 持续地面AOE,如果站在里面会附加流血,如果不移除会为BOSS增加疾走和伤害UP\n偶尔附加重量和释放目标地面AOE\n',
+        Tip: '“浸泡” - 持续地面AOE会加强BOSS\n之后平A加重15s，接顺劈、黄圈',
     },
     5450: {
-        Name: 'deep palace bandersnatch',
+        Name: "深宫斑攫兽",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
@@ -851,23 +855,23 @@ export default {
         Tip: '双重平A',
     },
     5451: {
-        Name: 'deep palace wisent',
+        Name: "深宫文森野牛",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
             Sleep: true,
         },
-        Tip: '大约在30秒时会半狂暴',
+        Tip: '30秒时会半狂暴',
     },
     5452: {
-        Name: 'bird of the deep palace',
+        Name: "深宫妖鸟",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {},
-        Tip: '“启示”附加混乱\n“热带风暴”大幅增加敌人疾走和伤害\n',
+        Tip: '“热带风暴”大幅增加敌人疾走和伤害\n',
     },
     5453: {
-        Name: 'deep palace snowclops',
+        Name: "深宫独眼雪巨人",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
@@ -875,10 +879,10 @@ export default {
             Heavy: true,
             Sleep: true,
         },
-        Tip: '“怒视” - 不可见直线AOE\n“100吨子挥击” - 不可见点blank AOE\n',
+        Tip: '读条不可见直线AOE；读条不可见钢铁',
     },
     5454: {
-        Name: 'deep palace sasquatch',
+        Name: "深宫大脚巨猿",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -886,10 +890,10 @@ export default {
             Heavy: true,
             Sleep: true,
         },
-        Tip: '增加自身伤害和在战斗外释放AOE附加物理易伤debuff',
+        Tip: '无仇恨AOE叠加物理易伤',
     },
     5455: {
-        Name: 'deep palace bear',
+        Name: "深宫白熊",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -901,7 +905,7 @@ export default {
         Tip: '',
     },
     5456: {
-        Name: 'deep palace black coeurl',
+        Name: "深宫长须黑豹",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -913,7 +917,7 @@ export default {
         Tip: '',
     },
     5457: {
-        Name: 'deep palace dhalmel',
+        Name: "深宫长颈驼",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -925,7 +929,7 @@ export default {
         Tip: '',
     },
     5458: {
-        Name: 'deep palace lion',
+        Name: "深宫雄狮",
         Threat: '小心',
         Aggro: '视觉',
         Weakness: {
@@ -937,16 +941,16 @@ export default {
         Tip: '双重平A',
     },
     5459: {
-        Name: 'deep palace anzu',
-        Threat: 'Vicious',
+        Name: "深宫安祖",
+        Threat: '危险',
         Aggro: '视觉',
         Weakness: {
             Stun: true,
         },
-        Tip: '顺劈附加流血\n“狂暴打击” 目标一个玩家造成重伤害,易伤down,并眩晕\n',
+        Tip: '顺劈dot；\n点名突脸AOE，眩晕+易伤',
     },
     5460: {
-        Name: 'deep palace wolf',
+        Name: "深宫白狼",
         Threat: '危险',
         Aggro: '视觉',
         Weakness: {
@@ -955,17 +959,17 @@ export default {
             Sleep: true,
             Bind: true,
         },
-        Tip: '顺劈造成巨大伤害并附加强效流血',
+        Tip: '顺劈dot',
     },
     5461: {
-        Name: 'Dendainsonne',
+        Name: "丹代恩索涅",
         Threat: '危险',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '“卡律布迪斯” - 连续释放两次持续性地面龙卷风,如果被卷入将受到高伤害\nBOSS将跑到竞技场的顶部或底部并释放“践踏” - 宽锥形AOE\n在15%血量时快速施放“日食陨石” - 全屏高伤害,长时间释放,每9秒对全员造成80%生命值伤害\n',
+        Tip: '最刺激的Boss。读条正面120°扇形AOE；\n连续2次读条“大漩涡”放龙卷风\nBOSS去12点或6点面向玩家读条60°扇形AOE“呵斥”\n在15%血量时,连续6s读条“黄道陨石” - 80%血上限伤害，穿无敌',
     },
     5462: {
-        Name: 'deep palace grenade',
+        Name: "深宫榴弹怪",
         Threat: '简单',
         Aggro: '视觉',
         Weakness: {
@@ -977,7 +981,7 @@ export default {
         Tip: '',
     },
     5463: {
-        Name: 'deep palace wamouracampa',
+        Name: "深宫瓦魔蛾幼虫",
         Threat: '小心',
         Aggro: '声音',
         Weakness: {
@@ -988,37 +992,17 @@ export default {
         Tip: '双重平A',
     },
     5464: {
-        Name: 'flood dragon',
-        Threat: 'Vicious',
+        Name: "水龙",
+        Threat: '危险',
         Aggro: '视觉',
         Weakness: {
             Heavy: true,
             Bind: true,
         },
-        Tip: '瞬发AOE附加重度流血',
+        Tip: '能别打就别打。瞬发AOE带dot，非T药不回来',
     },
     5465: {
-        Name: 'deep palace worm',
-        Threat: '危险',
-        Aggro: '声音',
-        Weakness: {
-            Heavy: true,
-            Bind: true,
-        },
-        Tip: '拉BOSS时释放瞬发AOE,双重平A\n30秒时释放半狂暴技能',
-    },
-    5466: {
-        Name: 'deep palace claw',
-        Threat: '小心',
-        Aggro: '视觉',
-        Weakness: {
-            Heavy: true,
-            Bind: true,
-        },
-        Tip: '吸附玩家并造成重伤害\n“尾巴旋转” 造成伤害和附加减速\n',
-    },
-    5467: {
-        Name: 'deep palace crawler',
+        Name: "深宫洪水巨虫",
         Threat: '危险',
         Aggro: '声音',
         Weakness: {
@@ -1026,10 +1010,32 @@ export default {
             Heavy: true,
             Bind: true,
         },
-        Tip: '瞬发AOE爆发造成重伤害和附加减速\n瞬发锥形攻击附加中毒\n',
+        Tip: '无仇恨范围伤害；\n双重平A；30秒时狂暴',
+    },
+    5466: {
+        Name: "深宫巨钳虾",
+        Threat: '小心',
+        Aggro: '视觉',
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Bind: true,
+        },
+        Tip: '点名吸引',
+    },
+    5467: {
+        Name: "深宫毛爬虫",
+        Threat: '危险',
+        Aggro: '声音',
+        Weakness: {
+            Stun: true,
+            Heavy: true,
+            Bind: true,
+        },
+        Tip: '瞬发减速\n瞬发中毒',
     },
     5468: {
-        Name: 'deep palace vindthurs',
+        Name: "深宫风巨魔",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -1039,7 +1045,7 @@ export default {
         Tip: '',
     },
     5469: {
-        Name: 'deep palace wamoura',
+        Name: "深宫瓦魔蛾",
         Threat: '简单',
         Aggro: '声音',
         Weakness: {
@@ -1050,39 +1056,43 @@ export default {
         Tip: '',
     },
     5470: {
-        Name: 'deep palace garm',
-        Threat: 'Vicious',
+        Name: "深宫加姆",
+        Threat: '危险',
         Aggro: '范围',
         Weakness: {
             Heavy: true,
             Sleep: true,
             Bind: true,
         },
-        Tip: '如果熟悉奇美拉机制可以拉怪\n“巨龙的咆哮” - 需要在击退范围内\n“公羊的咆哮” - 需要在攻击范围外\n',
+        Tip: '可打断读条冰钢铁、雷月环',
     },
     5471: {
-        Name: 'the Godfather',
+        Name: "爆弹怪教父",
         Threat: '危险',
         Aggro: 'Boss',
         Weakness: {},
-        Tip: '蓝色炸弹出现时消灭\n在“巨大爆发”释放时将红色炸弹推进BOSS,如果不眩晕将团灭\nBOSS有高伤害的顺劈攻击\n',
+        Tip: '平A高伤害；\n杀治疗爆弹怪；\n用熔岩爆弹怪眩晕Boss的狂暴读条',
     },
     5472: {
-        Name: 'deep palace trap',
+        Name: "深宫寒冰陷阱草",
         Threat: '简单',
         Aggro: '声音',
-        Weakness: {},
+        Weakness: {
+            Stun: true,
+        },
         Tip: '',
     },
     5473: {
-        Name: 'deep palace fachan',
+        Name: "深宫幽鬼之眼",
         Threat: '危险',
         Aggro: '视觉',
-        Weakness: {},
-        Tip: '释放不可预知的锥形“5级死亡”',
+        Weakness: {
+            Stun: true,
+        },
+        Tip: '读条正面不可见“5级即死”',
     },
     5474: {
-        Name: 'deep palace bicephalus',
+        Name: "深宫双头腐尸",
         Threat: '简单',
         Aggro: '范围',
         Weakness: {
@@ -1091,7 +1101,7 @@ export default {
         Tip: '',
     },
     5475: {
-        Name: 'deep palace iron corse',
+        Name: "深宫铁面腐尸",
         Threat: '小心',
         Aggro: '范围',
         Weakness: {
@@ -1099,15 +1109,6 @@ export default {
             Undead: true,
         },
         Tip: '双重平A',
-    },
-    5479: {
-        Name: 'palace sprite',
-        Threat: '简单',
-        Aggro: '范围',
-        Weakness: {
-            Stun: true,
-        },
-        Tip: '',
     },
     5480: {
         Name: '深宫元精',
