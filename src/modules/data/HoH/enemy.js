@@ -164,8 +164,8 @@ export default {
     },
     7280: {
         Name: "天之阿帕斯",
-        Threat: "范围",
-        Aggro: "视觉",
+        Threat: "简单",
+        Aggro: "范围",
         Weakness: {
             Stun: true,
         },
