@@ -6,13 +6,12 @@
         <section class="settings">
             <p>配置项：</p>
             <label class="settings-item">
-                <input
-                    type="checkbox"
-                    v-model="configKillCountLimitVisible"
-                />
+                <input type="checkbox" v-model="configKillCountLimitVisible" />
                 <div>仅在深层迷宫中展示 本层击杀数</div>
             </label>
-            <p class="setting-tip">（长期不用记得从ACT关闭悬浮窗，ACT会更流畅）</p>
+            <p class="setting-tip">
+                （长期不用记得从ACT关闭悬浮窗，ACT会更流畅）
+            </p>
         </section>
         <section v-if="currentEnemy">
             <p>
@@ -61,11 +60,14 @@ import { ref, computed, watch } from 'vue'
 import init from './modules/init'
 import { GetZoneDataById } from './modules/data/zone'
 
+const StorageKey = 'config'
+const storageConfig = localStorage.getItem(StorageKey) || '0'
+
 const killCount = ref(0)
 const currentIdMap = ref({})
 const floorTips = ref('')
 const currentId = ref(0)
-const configKillCountLimitVisible = ref(false)
+const configKillCountLimitVisible = ref(storageConfig === '1')
 const floorTipsVisible = ref(false)
 
 const currentEnemy = computed(() => currentIdMap.value[currentId.value])
@@ -87,6 +89,9 @@ watch(currentEnemy, (val) => {
     if (val && floorTipsVisible.value) {
         floorTipsVisible.value = false
     }
+})
+watch(configKillCountLimitVisible, (val) => {
+    localStorage.setItem(StorageKey, val ? 1 : 0)
 })
 
 init({
