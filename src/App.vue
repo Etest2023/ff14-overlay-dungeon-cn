@@ -1,6 +1,6 @@
 <template>
     <header v-if="killCountVisibble">
-        本层击杀数：<b>{{ killCount }}</b>
+        本层击杀数：<b>{{ killCount }}</b>{{ ['', '，已清除陷阱', '，已点亮陷阱'][isClear] }}
     </header>
     <main>
         <section class="settings">
@@ -69,6 +69,7 @@ const floorTips = ref('')
 const currentId = ref(0)
 const configKillCountLimitVisible = ref(storageConfig === '1')
 const floorTipsVisible = ref(false)
+const isClear = ref(0)
 
 const currentEnemy = computed(() => currentIdMap.value[currentId.value])
 const currentEnemyIsBoss = computed(
@@ -102,10 +103,17 @@ init({
         if (type === 'Change') {
             currentId.value = id
         }
+        if (type === 'Clear') {
+            isClear.value = 1
+        }
+        if (type === 'Light') {
+            isClear.value = 2
+        }
     },
     async ChangeZone(zoneId) {
         killCount.value = 0
         floorTipsVisible.value = true
+        isClear.value = 0
 
         if (!zoneId) return
         currentIdMap.value = {}

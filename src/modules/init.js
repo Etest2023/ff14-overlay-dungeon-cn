@@ -41,6 +41,8 @@ export default function init({ onLogEvent, ChangeZone }) {
             }
         } else if (lineType === '00') {
             if (line[4] === '成功进行了传送！') ChangeZone()
+            if (line[4] === '这一层的陷阱全部被清除了！') onLogEvent('Clear')
+            if (line[4] === '这一层的地图全部被点亮了！') onLogEvent('Light')
         } else if (['37', '38'].includes(lineType)) {
             //目标死亡，HP归零法
             const targetId = line[2]
