@@ -1,3 +1,7 @@
+# 本项目已加入[Souma-Sumire/ff14-overlay-vue](https://github.com/Souma-Sumire/ff14-overlay-vue)并交由Souma-Sumire维护
+
+## 本仓库为旧仓库，不应继续使用或迭代。
+
 # ff14-overlay-dungeon-cn
 FF14 ngld 悬浮窗
 
@@ -20,15 +24,4 @@ FF14 ngld 悬浮窗
 
 ## 参与贡献
 
-- 提交issue、PR
-
-## 赞助
-
-如果对你有帮助的话，您的以下赞助是我继续完善作品的动力
-
-- 帮助收集完善提示信息，在作品发布渠道反馈
-  - [github](https://github.com/Etest2023/ff14-overlay-dungeon-cn/issues)
-  - [NGA](https://nga.178.com/read.php?tid=37084135)
-- 为我充值任意国服游戏时间，用以开发测试、完善功能
-  - 充值账号：`Kaishirr1`
-  - 游戏区服：`陆行鸟`
+- 在[Souma-Sumire/ff14-overlay-vue](https://github.com/Souma-Sumire/ff14-overlay-vue)提交issue、PR
